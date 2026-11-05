@@ -1,0 +1,978 @@
+key,name,conference,division,subdivision,state,site,platform
+abilene_christian,Abilene Christian University,United Athletic Conference,1,FCS,TX,acusports.com,sidearm
+adams_state,Adams State University,Rocky Mountain Athletic Conference,2,,CO,www.asugrizzlies.com,sidearm_legacy
+adelphi,Adelphi University,Northeast 10 Conference,2,,NY,www.aupanthers.com,sidearm_legacy
+adrian,Adrian College,Michigan Intercollegiate Athletic Association,3,,MI,www.adrianbulldogs.com,sidearm_legacy
+agnes_scott,Agnes Scott College,Collegiate Conference of the South,3,,GA,www.ascscotties.com,sidearm_legacy
+akron,University of Akron,Mid-American Conference,1,FBS,OH,gozips.com,sidearm
+alabama,University of Alabama,Southeastern Conference,1,FBS,AL,rolltide.com,sidearm
+alabama_am,Alabama A&M University,Southwestern Athletic Conf.,1,FCS,AL,www.aamusports.com,sidearm_legacy
+alabama_birmingham,University of Alabama at Birmingham,American Conference,1,FBS,AL,uabsports.com,sidearm
+alabama_huntsville,University of Alabama in Huntsville,Gulf South Conference,2,,AL,uahchargers.com,sidearm_legacy
+alabama_state,Alabama State University,Southwestern Athletic Conf.,1,FCS,AL,www.bamastatesports.com,sidearm_legacy
+alaska_anchorage,University of Alaska Anchorage,Great Northwest Athletic Conference,2,,AK,www.goseawolves.com,sidearm_legacy
+alaska_fairbanks,University of Alaska Fairbanks,Great Northwest Athletic Conference,2,,AK,www.alaskananooks.com,sidearm_legacy
+albany_state_university_georgia,Albany State University (Georgia),Southern Intercol. Ath. Conf.,2,,GA,www.asugoldenrams.com,sidearm_legacy
+albion,Albion College,Michigan Intercollegiate Athletic Association,3,,MI,www.gobrits.com,sidearm_legacy
+albright,Albright College,Middle Atlantic Conference Commonwealth,3,,PA,www.albrightathletics.com,sidearm_legacy
+alcorn_state,Alcorn State University,Southwestern Athletic Conf.,1,FCS,MS,www.alcornsports.com,sidearm_legacy
+alfred,Alfred University,Empire 8,3,,NY,www.gosaxons.com,sidearm_legacy
+alfred_state,Alfred State College,State University of New York Athletic Conference,3,,NY,www.alfredstateathletics.com,sidearm_legacy
+allegheny,Allegheny College,Presidents' Athletic Conference,3,,PA,www.alleghenygators.com,sidearm_legacy
+allen,Allen University,Southern Intercol. Ath. Conf.,2,,SC,auyellowjackets.com,sidearm_legacy
+alma,Alma College,Michigan Intercollegiate Athletic Association,3,,MI,www.almascots.com,sidearm_legacy
+alvernia,Alvernia University,Middle Atlantic Conference Commonwealth,3,,PA,auwolves.com,sidearm_legacy
+alverno,Alverno College,Coast-To-Coast Athletic Conference,3,,WI,athletics.alverno.edu,sidearm_legacy
+american,American University,Patriot League,1,,DC,www.aueagles.com,sidearm_legacy
+american_international,American International College,Northeast 10 Conference,2,,MA,aicyellowjackets.com,sidearm_legacy
+amherst,Amherst College,New England Small College Athletic Conference,3,,MA,athletics.amherst.edu,sidearm_legacy
+anderson_university_south_carolina,Anderson University (South Carolina),South Atlantic Conference,2,,SC,www.autrojans.com,sidearm_legacy
+angelo_state,Angelo State University,Lone Star Conference,2,,TX,www.angelosports.com,sidearm_legacy
+appalachian_state,Appalachian State University,Sun Belt Conference,1,FBS,NC,appstatesports.com,sidearm_legacy
+arcadia,Arcadia University,Middle Atlantic Conference Freedom,3,,PA,www.arcadiaknights.com,sidearm_legacy
+arizona,University of Arizona,Big 12 Conference,1,FBS,AZ,arizonawildcats.com,sidearm
+arizona_state,Arizona State University,Big 12 Conference,1,FBS,AZ,thesundevils.com,wmt
+arkansas,"University of Arkansas, Fayetteville",Southeastern Conference,1,FBS,AR,arkansasrazorbacks.com,wordpress
+arkansas_fort_smith,"University of Arkansas, Fort Smith",Mid-America Intercollegiate Athletics Association,2,,AR,www.uafortsmithlions.com,sidearm_legacy
+arkansas_monticello,"University of Arkansas, Monticello",Great American Conference,2,,AR,www.uamsports.com,sidearm_legacy
+arkansas_pine_bluff,"University of Arkansas, Pine Bluff",Southwestern Athletic Conf.,1,FCS,AR,uapblionsroar.com,sidearm_legacy
+arkansas_state,Arkansas State University,Sun Belt Conference,1,FBS,AR,www.astateredwolves.com,sidearm_legacy
+arkansas_tech,Arkansas Tech University,Great American Conference,2,,AR,www.arkansastechsports.com,sidearm_legacy
+asbury,Asbury University,Collegiate Conference of the South,3,,KY,www.asburyeagles.com,sidearm_legacy
+ashland,Ashland University,Great Midwest Athletic Conference,2,,OH,www.goashlandeagles.com,sidearm_legacy
+assumption,Assumption University,Northeast 10 Conference,2,,MA,www.assumptiongreyhounds.com,sidearm_legacy
+auburn,Auburn University,Southeastern Conference,1,FBS,AL,auburntigers.com,wmt
+auburn_university_montgomery,Auburn University at Montgomery,Gulf South Conference,2,,AL,www.aumathletics.com,sidearm_legacy
+augsburg,Augsburg University,Minnesota Intercollegiate Athletic Conference,3,,MN,athletics.augsburg.edu,sidearm_legacy
+augusta,Augusta University,Peach Belt Conference,2,,GA,www.augustajags.com,sidearm_legacy
+augustana_college_illinois,Augustana College (Illinois),College Conference of Illinois & Wisconsin,3,,IL,www.athletics.augustana.edu,sidearm_legacy
+augustana_university_south_dakota,Augustana University (South Dakota),Northern Sun Intercollegiate Conference,2,,SD,www.goaugie.com,sidearm_legacy
+aurora,Aurora University,Northern Athletics Collegiate Conference,3,,IL,athletics.aurora.edu,sidearm_legacy
+austin_peay_state,Austin Peay State University,United Athletic Conference,1,FCS,TN,www.letsgopeay.com,sidearm_legacy
+averett,Averett University,Old Dominion Athletic Conf.,3,,VA,www.averettcougars.com,sidearm_legacy
+azusa_pacific,Azusa Pacific University,Southern California Intercollegiate Athletic Conf.,2,,CA,athletics.apu.edu,sidearm_legacy
+babson,Babson College,New England Women's and Men's Athletic Conference,3,,MA,www.babsonathletics.com,sidearm_legacy
+baldwin_wallace,Baldwin Wallace University,Ohio Athletic Conference,3,,OH,www.bwyellowjackets.com,sidearm_legacy
+ball_state,Ball State University,Mid-American Conference,1,FBS,IN,ballstatesports.com,sidearm
+bard,Bard College,Liberty League,3,,NY,www.bardathletics.com,sidearm_legacy
+barry,Barry University,Sunshine State Conference,2,,FL,www.gobarrybucs.com,sidearm_legacy
+barton,Barton College,Conference Carolinas,2,,NC,www.bartonbulldogs.com,sidearm_legacy
+bates,Bates College,New England Small College Athletic Conference,3,,ME,www.gobatesbobcats.com,sidearm_legacy
+batten,Batten University,Old Dominion Athletic Conf.,3,,VA,battenathletics.com,sidearm_legacy
+baylor,Baylor University,Big 12 Conference,1,FBS,TX,baylorbears.com,sidearm
+belhaven,Belhaven University,Collegiate Conference of the South,3,,MS,blazers.belhaven.edu,sidearm_legacy
+bellarmine,Bellarmine University,Atlantic Sun Conference,1,,KY,athletics.bellarmine.edu,sidearm_legacy
+belmont,Belmont University,Missouri Valley Conference,1,,TN,www.belmontbruins.com,sidearm_legacy
+belmont_abbey,Belmont Abbey College,Conference Carolinas,2,,NC,www.abbeyathletics.com,sidearm_legacy
+bemidji_state,Bemidji State University,Northern Sun Intercollegiate Conference,2,,MN,www.bsubeavers.com,sidearm_legacy
+benedict,Benedict College,Southern Intercol. Ath. Conf.,2,,SC,benedicttigers.com,sidearm_legacy
+benedictine_university_illinois,Benedictine University (Illinois),Northern Athletics Collegiate Conference,3,,IL,www.benueagles.com,sidearm_legacy
+berea,Berea College,Heartland Collegiate Athletic Conference,3,,KY,www.bereaathletics.com,sidearm_legacy
+berry,Berry College,Southern Athletic Association,3,,GA,www.berryvikings.com,sidearm_legacy
+bethany_college_west_virginia,Bethany College (West Virginia),Presidents' Athletic Conference,3,,WV,www.bethanybison.com,sidearm_legacy
+bethany_lutheran,Bethany Lutheran College,Upper Midwest Athletic Conference,3,,MN,www.blcvikings.com,sidearm_legacy
+bethel_university_minnesota,Bethel University (Minnesota),Minnesota Intercollegiate Athletic Conference,3,,MN,athletics.bethel.edu,sidearm_legacy
+bethune_cookman,Bethune-Cookman University,Southwestern Athletic Conf.,1,FCS,FL,www.bcuathletics.com,sidearm_legacy
+binghamton,Binghamton University,America East Conference,1,,NY,binghamtonbearcats.com,sidearm_legacy
+biola,Biola University,Pacific West Conference,2,,CA,athletics.biola.edu,sidearm_legacy
+black_hills_state,Black Hills State University,Rocky Mountain Athletic Conference,2,,SD,www.bhsuathletics.com,sidearm_legacy
+bloomsburg_university_of_pennsylvania,Bloomsburg University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.bloomsburgathletics.com,sidearm_legacy
+bluefield_state,Bluefield State University,Central Intercollegiate Athletic Association,2,,WV,gobstate.com,sidearm_legacy
+boise_state,Boise State University,Pac-12 Conference,1,FBS,ID,broncosports.com,sidearm
+boston,Boston University,Patriot League,1,,MA,goterriers.com,sidearm
+boston_college,Boston College,Atlantic Coast Conference,1,FBS,MA,bceagles.com,sidearm
+bowie_state,Bowie State University,Central Intercollegiate Athletic Association,2,,MD,www.bsubulldogs.com,sidearm_legacy
+bowling_green_state,Bowling Green State University,Mid-American Conference,1,FBS,OH,bgsufalcons.com,sidearm
+bradley,Bradley University,Missouri Valley Conference,1,,IL,www.bradleybraves.com,sidearm_legacy
+brandeis,Brandeis University,University Athletic Association,3,,MA,www.brandeisjudges.com,sidearm_legacy
+brevard,Brevard College,USA South Athletic Conference,3,,NC,www.bctornados.com,sidearm_legacy
+bridgewater_college_virginia,Bridgewater College (Virginia),Old Dominion Athletic Conf.,3,,VA,www.bridgewatereagles.com,sidearm_legacy
+brooklyn,Brooklyn College,City University of New York Athletic Conference,3,,NY,www.brooklyncollegeathletics.com,sidearm_legacy
+brown,Brown University,The Ivy League,1,FCS,RI,brownbears.com,sidearm
+bryant,Bryant University,America East Conference,1,FCS,RI,www.bryantbulldogs.com,sidearm_legacy
+bucknell,Bucknell University,Patriot League,1,FCS,PA,bucknellbison.com,sidearm
+buena_vista,Buena Vista University,American Rivers Conference,3,,IA,www.bvuathletics.com,sidearm_legacy
+buffalo_state,"Buffalo State, State University of New York",State University of New York Athletic Conference,3,,NY,www.buffalostateathletics.com,sidearm_legacy
+butler,Butler University,BIG EAST Conference,1,FCS,IN,www.butlersports.com,sidearm_legacy
+byu,Brigham Young University,Big 12 Conference,1,FBS,UT,byucougars.com,wmt
+cairn,Cairn University,United East Conference,3,,PA,www.cairnhighlanders.com,sidearm_legacy
+cal_poly_humboldt,"California State Polytechnic University, Humboldt",California Collegiate Athletic Association,2,,CA,humboldtathletics.com,sidearm_legacy
+cal_poly_pomona,"California State Polytechnic University, Pomona",California Collegiate Athletic Association,2,,CA,www.broncoathletics.com,sidearm_legacy
+cal_state_bakersfield,"California State University, Bakersfield",Big West Conference,1,,CA,www.gorunners.com,sidearm_legacy
+cal_state_chico,"California State University, Chico",California Collegiate Athletic Association,2,,CA,www.chicowildcats.com,sidearm_legacy
+cal_state_dominguez_hills,"California State University, Dominguez Hills",California Collegiate Athletic Association,2,,CA,www.gotoros.com,sidearm_legacy
+cal_state_east_bay,"California State University, East Bay",California Collegiate Athletic Association,2,,CA,www.eastbaypioneers.com,sidearm_legacy
+cal_state_fresno,"California State University, Fresno",Pac-12 Conference,1,FBS,CA,gobulldogs.com,sidearm
+cal_state_fullerton,"California State University, Fullerton",Big West Conference,1,,CA,www.fullertontitans.com,sidearm_legacy
+cal_state_los_angeles,"California State University, Los Angeles",California Collegiate Athletic Association,2,,CA,www.lagoldeneagles.com,sidearm_legacy
+cal_state_monterey_bay,"California State University, Monterey Bay",California Collegiate Athletic Association,2,,CA,www.otterathletics.com,sidearm_legacy
+cal_state_northridge,"California State University, Northridge",Big West Conference,1,,CA,gomatadors.com,sidearm
+cal_state_sacramento,"California State University, Sacramento",Big West Conference,1,FCS,CA,www.hornetsports.com,sidearm_legacy
+cal_state_san_bernardino,"California State University, San Bernardino",California Collegiate Athletic Association,2,,CA,www.csusbathletics.com,sidearm_legacy
+cal_state_san_marcos,"California State University, San Marcos",California Collegiate Athletic Association,2,,CA,csusmcougars.com,sidearm_legacy
+cal_state_stanislaus,"California State University, Stanislaus",California Collegiate Athletic Association,2,,CA,www.warriorathletics.com,sidearm_legacy
+caldwell,Caldwell University,Central Atlantic Collegiate Conference,2,,NJ,www.caldwellathletics.com,sidearm_legacy
+california,"University of California, Berkeley",Atlantic Coast Conference,1,FBS,CA,calbears.com,sidearm
+california_baptist,California Baptist University,Big West Conference,1,,CA,cbulancers.com,sidearm
+california_institute_of_technology,California Institute of Technology,Southern California Intercollegiate Athletic Conf.,3,,CA,www.gocaltech.com,sidearm_legacy
+california_lutheran,California Lutheran University,Southern California Intercollegiate Athletic Conf.,3,,CA,www.clusports.com,sidearm_legacy
+california_polytechnic_state,California Polytechnic State University,Big West Conference,1,FCS,CA,gopoly.com,sidearm
+calvin,Calvin University,Michigan Intercollegiate Athletic Association,3,,MI,calvinknights.com,sidearm_legacy
+cameron,Cameron University,Lone Star Conference,2,,OK,cameronaggies.com,sidearm_legacy
+campbell,Campbell University,Coastal Athletic Association,1,FCS,NC,www.gocamels.com,sidearm_legacy
+canisius,Canisius University,Metro Conference,1,,NY,www.gogriffs.com,sidearm_legacy
+carroll_university_wisconsin,Carroll University (Wisconsin),College Conference of Illinois & Wisconsin,3,,WI,www.gopios.com,sidearm_legacy
+carthage,Carthage College,College Conference of Illinois & Wisconsin,3,,WI,athletics.carthage.edu,sidearm_legacy
+case_western_reserve,Case Western Reserve University,University Athletic Association,3,,OH,athletics.case.edu,sidearm_legacy
+catawba,Catawba College,South Atlantic Conference,2,,NC,www.catawbaathletics.com,sidearm_legacy
+catholic,Catholic University,Landmark Conference,3,,DC,www.catholicathletics.com,sidearm_legacy
+cedar_crest,Cedar Crest College,United East Conference,3,,PA,www.cedarcrestathletics.com,sidearm_legacy
+cedarville,Cedarville University,Great Midwest Athletic Conference,2,,OH,www.yellowjackets.cedarville.edu,sidearm_legacy
+centenary_university_new_jersey,Centenary University (New Jersey),Atlantic East Conference,3,,NJ,www.centenarycyclones.com,sidearm_legacy
+central_arkansas,University of Central Arkansas,United Athletic Conference,1,FCS,AR,www.ucasports.com,sidearm_legacy
+central_michigan,Central Michigan University,Mid-American Conference,1,FBS,MI,cmuchippewas.com,sidearm
+central_missouri,University of Central Missouri,Mid-America Intercollegiate Athletics Association,2,,MO,ucmathletics.com,sidearm_legacy
+central_oklahoma,University of Central Oklahoma,Mid-America Intercollegiate Athletics Association,2,,OK,www.bronchosports.com,sidearm_legacy
+central_state,Central State University,Southern Intercol. Ath. Conf.,2,,OH,www.maraudersports.com,sidearm_legacy
+central_washington,Central Washington University,Great Northwest Athletic Conference,2,,WA,wildcatsports.com,sidearm_legacy
+centre,Centre College,Southern Athletic Association,3,,KY,www.centrecolonels.com,sidearm_legacy
+chadron_state,Chadron State College,Rocky Mountain Athletic Conference,2,,NE,www.chadroneagles.com,sidearm_legacy
+chaminade,Chaminade University,Pacific West Conference,2,,HI,goswords.com,sidearm_legacy
+chapman,Chapman University,Southern California Intercollegiate Athletic Conf.,3,,CA,athletics.chapman.edu,sidearm_legacy
+charleston_south_carolina,College of Charleston (South Carolina),Coastal Athletic Association,1,,SC,cofcsports.com,sidearm
+charleston_southern,Charleston Southern University,Big South Conference,1,FCS,SC,csusports.com,sidearm
+charleston_west_virginia,University of Charleston (West Virginia),Mountain East Conference,2,,WV,www.ucgoldeneagles.com,sidearm_legacy
+chatham,Chatham University,Presidents' Athletic Conference,3,,PA,www.gochathamcougars.com,sidearm_legacy
+chestnut_hill,Chestnut Hill College,Central Atlantic Collegiate Conference,2,,PA,www.griffinathletics.com,sidearm_legacy
+chicago,University of Chicago,University Athletic Association,3,,IL,athletics.uchicago.edu,sidearm_legacy
+chicago_state,Chicago State University,Northeast Conference,1,FCS,IL,www.gocsucougars.com,sidearm_legacy
+chowan,Chowan University,Conference Carolinas,2,,NC,www.gocuhawks.com,sidearm_legacy
+christian_brothers,Christian Brothers University,Gulf South Conference,2,,TN,www.cbubucs.com,sidearm_legacy
+christopher_newport,Christopher Newport University,Coast-To-Coast Athletic Conference,3,,VA,cnusports.com,sidearm_legacy
+cincinnati,University of Cincinnati,Big 12 Conference,1,FBS,OH,gobearcats.com,wmt
+citadel,The Citadel,Southern Conference,1,FCS,SC,citadelsports.com,sidearm
+city_college_of_new_york,The City College of New York,City University of New York Athletic Conference,3,,NY,www.ccnyathletics.com,sidearm_legacy
+claflin,Claflin University,Central Intercollegiate Athletic Association,2,,SC,athletics.claflin.edu,sidearm_legacy
+claremont_mckenna_harvey_mudd_scripps_colleges,Claremont McKenna-Harvey Mudd-Scripps Colleges,Southern California Intercollegiate Athletic Conf.,3,,CA,www.cmsathletics.org,sidearm_legacy
+clark_atlanta,Clark Atlanta University,Southern Intercol. Ath. Conf.,2,,GA,www.clarkatlantasports.com,sidearm_legacy
+clark_university_massachusetts,Clark University (Massachusetts),New England Women's and Men's Athletic Conference,3,,MA,clarkathletics.com,sidearm_legacy
+clarkson,Clarkson University,Liberty League,3,,NY,www.clarksonathletics.com,sidearm_legacy
+clayton_state,Clayton State University,Peach Belt Conference,2,,GA,www.claytonstatesports.com,sidearm_legacy
+clemson,Clemson University,Atlantic Coast Conference,1,FBS,SC,clemsontigers.com,wmt
+cleveland_state,Cleveland State University,Horizon League,1,,OH,www.csuvikings.com,sidearm_legacy
+coastal_carolina,Coastal Carolina University,Sun Belt Conference,1,FBS,SC,goccusports.com,sidearm
+coe,Coe College,American Rivers Conference,3,,IA,www.kohawkathletics.com,sidearm_legacy
+colby_sawyer,Colby-Sawyer College,Great Northeast Athletic Conference,3,,NH,www.colby-sawyerathletics.com,sidearm_legacy
+colorado,University of Colorado Boulder,Big 12 Conference,1,FBS,CO,cubuffs.com,sidearm
+colorado_christian,Colorado Christian University,Rocky Mountain Athletic Conference,2,,CO,www.ccucougars.com,sidearm_legacy
+colorado_college,Colorado College,Southern Collegiate Athletic Conference,3,,CO,www.cctigers.com,sidearm_legacy
+colorado_colorado_springs,University of Colorado Colorado Springs,Rocky Mountain Athletic Conference,2,,CO,www.gomountainlions.com,sidearm_legacy
+colorado_mesa,Colorado Mesa University,Rocky Mountain Athletic Conference,2,,CO,cmumavericks.com,sidearm_legacy
+colorado_school_of_mines,Colorado School of Mines,Rocky Mountain Athletic Conference,2,,CO,minesathletics.com,sidearm_legacy
+colorado_state,Colorado State University,Pac-12 Conference,1,FBS,CO,csurams.com,sidearm
+colorado_state_university_pueblo,Colorado State University Pueblo,Rocky Mountain Athletic Conference,2,,CO,www.gothunderwolves.com,sidearm_legacy
+columbia_university_barnard,Columbia University-Barnard College,The Ivy League,1,FCS,NY,gocolumbialions.com,sidearm
+columbus_state,Columbus State University,Peach Belt Conference,2,,GA,csucougars.com,sidearm_legacy
+concord,Concord University,Mountain East Conference,2,,WV,www.cumountainlions.com,sidearm_legacy
+concordia_university_chicago,Concordia University Chicago,Northern Athletics Collegiate Conference,3,,IL,www.cucougars.com,sidearm_legacy
+concordia_university_irvine,Concordia University Irvine,Pacific West Conference,2,,CA,www.cuigoldeneagles.com,sidearm_legacy
+concordia_university_st_paul,"Concordia University, St. Paul",Northern Sun Intercollegiate Conference,2,,MN,cspbears.com,sidearm_legacy
+concordia_university_texas,Concordia University Texas,Southern Collegiate Athletic Conference,3,,TX,athletics.concordia.edu,sidearm_legacy
+concordia_university_wisconsin,Concordia University Wisconsin,Northern Athletics Collegiate Conference,3,,WI,www.cuwfalcons.com,sidearm_legacy
+connecticut,University of Connecticut,BIG EAST Conference,1,FBS,CT,uconnhuskies.com,sidearm
+connecticut_college,Connecticut College,New England Small College Athletic Conference,3,,CT,camelathletics.com,sidearm_legacy
+converse,Converse University,Conference Carolinas,2,,SC,govalkyries.com,sidearm_legacy
+coppin_state,Coppin State University,Mid-Eastern Athletic Conf.,1,,MD,www.coppinstatesports.com,sidearm_legacy
+cornell,Cornell University,The Ivy League,1,FCS,NY,www.cornellbigred.com,sidearm_legacy
+cornell_college,Cornell College,Midwest Conference,3,,IA,www.cornellrams.com,sidearm_legacy
+covenant,Covenant College,Collegiate Conference of the South,3,,GA,athletics.covenant.edu,sidearm_legacy
+creighton,Creighton University,BIG EAST Conference,1,,NE,gocreighton.com,sidearm
+crown_college_minnesota,Crown College (Minnesota),Upper Midwest Athletic Conference,3,,MN,athletics.crown.edu,sidearm_legacy
+daemen,Daemen University,East Coast Conference,2,,NY,daemenwildcats.com,sidearm_legacy
+dallas,University of Dallas,Southern Collegiate Athletic Conference,3,,TX,www.udallasathletics.com,sidearm_legacy
+dallas_baptist,Dallas Baptist University,Lone Star Conference,2,,TX,www.dbupatriots.com,sidearm_legacy
+dartmouth,Dartmouth College,The Ivy League,1,FCS,NH,dartmouthsports.com,sidearm
+davenport,Davenport University,Great Lakes Intercollegiate Athletic Conference,2,,MI,dupanthers.com,sidearm_legacy
+davidson,Davidson College,Atlantic 10 Conference,1,FCS,NC,davidsonwildcats.com,sidearm
+davis_and_elkins,Davis & Elkins College,Mountain East Conference,2,,WV,www.senatornation.com,sidearm_legacy
+dayton,University of Dayton,Atlantic 10 Conference,1,FCS,OH,www.daytonflyers.com,sidearm_legacy
+dean,Dean College,Great Northeast Athletic Conference,3,,MA,www.deanbulldogs.com,sidearm_legacy
+delaware,University of Delaware,Conference USA,1,FBS,DE,bluehens.com,sidearm
+delaware_state,Delaware State University,Mid-Eastern Athletic Conf.,1,FCS,DE,www.dsuhornets.com,sidearm_legacy
+delta_state,Delta State University,Gulf South Conference,2,,MS,www.gostatesmen.com,sidearm_legacy
+denison,Denison University,North Coast Athletic Conference,3,,OH,bigred.denison.edu,sidearm_legacy
+denver,University of Denver,West Coast Conference,1,,CO,denverpioneers.com,sidearm
+depaul,DePaul University,BIG EAST Conference,1,,IL,depaulbluedemons.com,sidearm
+depauw,DePauw University,North Coast Athletic Conference,3,,IN,depauwtigers.com,sidearm_legacy
+desales,DeSales University,Middle Atlantic Conference Freedom,3,,PA,athletics.desales.edu,sidearm_legacy
+detroit_mercy,University of Detroit Mercy,Horizon League,1,,MI,www.detroittitans.com,sidearm_legacy
+dickinson,Dickinson College,Centennial Conference,3,,PA,www.dickinsonathletics.com,sidearm_legacy
+dominican_university_illinois,Dominican University (Illinois),Northern Athletics Collegiate Conference,3,,IL,www.dustars.com,sidearm_legacy
+dominican_university_of_california,Dominican University of California,Pacific West Conference,2,,CA,www.dominicanathletics.com,sidearm_legacy
+drake,Drake University,Missouri Valley Conference,1,FCS,IA,godrakebulldogs.com,sidearm_legacy
+drew,Drew University,Landmark Conference,3,,NJ,www.drewrangers.com,sidearm_legacy
+drexel,Drexel University,Coastal Athletic Association,1,,PA,drexeldragons.com,sidearm
+drury,Drury University,Great Lakes Valley Conference,2,,MO,www.drurypanthers.com,sidearm_legacy
+duke,Duke University,Atlantic Coast Conference,1,FBS,NC,goduke.com,sidearm
+duquesne,Duquesne University,Atlantic 10 Conference,1,FCS,PA,www.goduquesne.com,sidearm_legacy
+dyouville,D'Youville University,East Coast Conference,2,,NY,dyusaints.com,sidearm_legacy
+earlham,Earlham College,Heartland Collegiate Athletic Conference,3,,IN,www.goearlham.com,sidearm_legacy
+east_carolina,East Carolina University,American Conference,1,FBS,NC,ecupirates.com,sidearm
+east_central,East Central University,Great American Conference,2,,OK,ecutigers.com,sidearm_legacy
+east_stroudsburg_university_of_pennsylvania,East Stroudsburg University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,esuwarriors.com,sidearm_legacy
+east_tennessee_state,East Tennessee State University,Southern Conference,1,FCS,TN,www.etsubucs.com,sidearm_legacy
+east_texas_am,East Texas A&M University,Southland Conference,1,FCS,TX,www.lionathletics.com,sidearm_legacy
+east_texas_baptist,East Texas Baptist University,American Southwest Conference,3,,TX,www.goetbutigers.com,sidearm_legacy
+eastern,Eastern University,Middle Atlantic Conference Commonwealth,3,,PA,www.goeasterneagles.com,sidearm_legacy
+eastern_connecticut_state,Eastern Connecticut State University,Little East Conference,3,,CT,gowarriorathletics.com,sidearm_legacy
+eastern_illinois,Eastern Illinois University,Ohio Valley Conference,1,FCS,IL,www.eiupanthers.com,sidearm_legacy
+eastern_kentucky,Eastern Kentucky University,United Athletic Conference,1,FCS,KY,www.ekusports.com,sidearm_legacy
+eastern_mennonite,Eastern Mennonite University,Old Dominion Athletic Conf.,3,,VA,www.emuroyals.com,sidearm_legacy
+eastern_michigan,Eastern Michigan University,Mid-American Conference,1,FBS,MI,emueagles.com,sidearm
+eastern_new_mexico,Eastern New Mexico University,Lone Star Conference,2,,NM,www.goeasternathletics.com,sidearm_legacy
+eastern_washington,Eastern Washington University,Big Sky Conference,1,FCS,WA,goeags.com,sidearm_legacy
+eckerd,Eckerd College,Sunshine State Conference,2,,FL,www.eckerdtritons.com,sidearm_legacy
+edgewood,Edgewood University,Northern Athletics Collegiate Conference,3,,WI,www.edgewoodeagles.com,sidearm_legacy
+edward_waters,Edward Waters University,Southern Intercol. Ath. Conf.,2,,FL,www.ewutigerpride.com,sidearm_legacy
+elizabeth_city_state,Elizabeth City State University,Central Intercollegiate Athletic Association,2,,NC,www.ecsuvikings.com,sidearm_legacy
+elizabethtown,Elizabethtown College,Landmark Conference,3,,PA,www.etownbluejays.com,sidearm_legacy
+elmhurst,Elmhurst University,College Conference of Illinois & Wisconsin,3,,IL,elmhurstbluejays.com,sidearm_legacy
+elmira,Elmira College,Empire 8,3,,NY,athletics.elmira.edu,sidearm_legacy
+elon,Elon University,Coastal Athletic Association,1,FCS,NC,www.elonphoenix.com,sidearm_legacy
+embry_riddle_aeronautical_university_florida,Embry-Riddle Aeronautical University (Florida),Sunshine State Conference,2,,FL,www.erauathletics.com,sidearm_legacy
+emerson,Emerson College,New England Women's and Men's Athletic Conference,3,,MA,www.emersonlions.com,sidearm_legacy
+emmanuel_college_massachusetts,Emmanuel College (Massachusetts),Great Northeast Athletic Conference,3,,MA,www.goecsaints.com,sidearm_legacy
+emmanuel_university_georgia,Emmanuel University (Georgia),Conference Carolinas,2,,GA,goeulions.com,sidearm_legacy
+emory,Emory University,University Athletic Association,3,,GA,www.emoryathletics.com,sidearm_legacy
+emporia_state,Emporia State University,Mid-America Intercollegiate Athletics Association,2,,KS,www.esuhornets.com,sidearm_legacy
+erskine,Erskine College,Conference Carolinas,2,,SC,www.erskinesports.com,sidearm_legacy
+evansville,University of Evansville,Missouri Valley Conference,1,,IN,www.gopurpleaces.com,sidearm_legacy
+fairfield,Fairfield University,Metro Conference,1,,CT,fairfieldstags.com,sidearm_legacy
+fairleigh_dickinson_university_florham,"Fairleigh Dickinson University, Florham",Middle Atlantic Conference Freedom,3,,NJ,www.fdudevils.com,sidearm_legacy
+fairleigh_dickinson_university_metropolitan_campus,"Fairleigh Dickinson University, Metropolitan Campus",Northeast Conference,1,,NJ,www.fduknights.com,sidearm_legacy
+fairmont_state,Fairmont State University,Mountain East Conference,2,,WV,www.fightingfalcons.com,sidearm_legacy
+farmingdale_state,Farmingdale State College,Skyline Conference,3,,NY,www.farmingdalesports.com,sidearm_legacy
+fayetteville_state,Fayetteville State University,Central Intercollegiate Athletic Association,2,,NC,fsubroncos.com,sidearm_legacy
+felician,Felician University,Central Atlantic Collegiate Conference,2,,NJ,www.felicianuathletics.com,sidearm_legacy
+ferrum,Ferrum College,Conference Carolinas,3,,VA,www.ferrumpanthers.com,sidearm_legacy
+findlay,University of Findlay,Great Midwest Athletic Conference,2,,OH,findlayoilers.com,sidearm_legacy
+flagler,Flagler College,Peach Belt Conference,2,,FL,www.flaglerathletics.com,sidearm_legacy
+florida,University of Florida,Southeastern Conference,1,FBS,FL,floridagators.com,sidearm
+florida_am,Florida A&M University,Southwestern Athletic Conf.,1,FCS,FL,www.famuathletics.com,sidearm_legacy
+florida_atlantic,Florida Atlantic University,American Conference,1,FBS,FL,fausports.com,sidearm
+florida_gulf_coast,Florida Gulf Coast University,Atlantic Sun Conference,1,,FL,fgcuathletics.com,sidearm_legacy
+florida_institute_of_technology,Florida Institute of Technology,Sunshine State Conference,2,,FL,floridatechsports.com,sidearm_legacy
+florida_international,Florida International University,Conference USA,1,FBS,FL,www.fiusports.com,sidearm_legacy
+florida_southern,Florida Southern College,Sunshine State Conference,2,,FL,www.fscmocs.com,sidearm_legacy
+florida_state,Florida State University,Atlantic Coast Conference,1,FBS,FL,seminoles.com,sidearm
+fordham,Fordham University,Atlantic 10 Conference,1,FCS,NY,www.fordhamsports.com,sidearm_legacy
+fort_hays_state,Fort Hays State University,Mid-America Intercollegiate Athletics Association,2,,KS,www.fhsuathletics.com,sidearm_legacy
+fort_lewis,Fort Lewis College,Rocky Mountain Athletic Conference,2,,CO,www.goskyhawks.com,sidearm_legacy
+fort_valley_state,Fort Valley State University,Southern Intercol. Ath. Conf.,2,,GA,fvsusports.com,sidearm_legacy
+francis_marion,Francis Marion University,Conference Carolinas,2,,SC,www.fmupatriots.com,sidearm_legacy
+franciscan_university_of_steubenville,Franciscan University of Steubenville,Presidents' Athletic Conference,3,,OH,www.franciscanathletics.com,sidearm_legacy
+franklin,Franklin College,Heartland Collegiate Athletic Conference,3,,IN,franklingrizzlies.com,sidearm_legacy
+franklin_and_marshall,Franklin & Marshall College,Centennial Conference,3,,PA,www.godiplomats.com,sidearm_legacy
+franklin_pierce,Franklin Pierce University,Northeast 10 Conference,2,,NH,www.fpuravens.com,sidearm_legacy
+fresno_pacific,Fresno Pacific University,California Collegiate Athletic Association,2,,CA,www.fpusunbirds.com,sidearm_legacy
+frostburg_state,Frostburg State University,Mountain East Conference,2,,MD,www.frostburgsports.com,sidearm_legacy
+furman,Furman University,Southern Conference,1,FCS,SC,www.furmanpaladins.com,sidearm_legacy
+gallaudet,Gallaudet University,United East Conference,3,,DC,www.gallaudetbison.com,sidearm_legacy
+gannon,Gannon University,Pennsylvania State Athletic Conference,2,,PA,www.gannonsports.com,sidearm_legacy
+gardner_webb,Gardner-Webb University,Big South Conference,1,FCS,NC,gwusports.com,sidearm
+geneva,Geneva College,Presidents' Athletic Conference,3,,PA,athletics.geneva.edu,sidearm_legacy
+george_mason,George Mason University,Atlantic 10 Conference,1,,VA,www.gomason.com,sidearm_legacy
+george_washington,George Washington University,Atlantic 10 Conference,1,,DC,gwsports.com,sidearm
+georgetown,Georgetown University,BIG EAST Conference,1,FCS,DC,guhoyas.com,sidearm_legacy
+georgia,University of Georgia,Southeastern Conference,1,FBS,GA,georgiadogs.com,sidearm
+georgia_college,Georgia College,Peach Belt Conference,2,,GA,www.gcsubobcats.com,sidearm_legacy
+georgia_institute_of_technology,Georgia Institute of Technology,Atlantic Coast Conference,1,FBS,GA,ramblinwreck.com,wmt
+georgia_southern,Georgia Southern University,Sun Belt Conference,1,FBS,GA,gseagles.com,sidearm
+georgia_southwestern_state,Georgia Southwestern State University,Peach Belt Conference,2,,GA,www.gswcanes.com,sidearm_legacy
+georgia_state,Georgia State University,Sun Belt Conference,1,FBS,GA,georgiastatesports.com,sidearm_legacy
+georgian_court,Georgian Court University,Central Atlantic Collegiate Conference,2,,NJ,www.gculions.com,sidearm_legacy
+gettysburg,Gettysburg College,Centennial Conference,3,,PA,www.gettysburgsports.com,sidearm_legacy
+glenville_state,Glenville State University,Mountain East Conference,2,,WV,gstatepioneers.com,sidearm_legacy
+goldey_beacom,Goldey-Beacom College,Central Atlantic Collegiate Conference,2,,DE,www.gbcathletics.com,sidearm_legacy
+gonzaga,Gonzaga University,Pac-12 Conference,1,,WA,gozags.com,sidearm
+gordon,Gordon College,Conference of New England,3,,MA,athletics.gordon.edu,sidearm_legacy
+grambling_state,Grambling State University,Southwestern Athletic Conf.,1,FCS,LA,www.gsutigers.com,sidearm_legacy
+grand_canyon,Grand Canyon University,Mountain West Conference,1,,AZ,gculopes.com,sidearm
+grand_valley_state,Grand Valley State University,Great Lakes Intercollegiate Athletic Conference,2,,MI,gvsulakers.com,sidearm_legacy
+greensboro,Greensboro College,USA South Athletic Conference,3,,NC,www.greensborocollegesports.com,sidearm_legacy
+grinnell,Grinnell College,Midwest Conference,3,,IA,pioneers.grinnell.edu,sidearm_legacy
+grove_city,Grove City College,Presidents' Athletic Conference,3,,PA,athletics.gcc.edu,sidearm_legacy
+gwynedd_mercy,Gwynedd Mercy University,Atlantic East Conference,3,,PA,gwyneddathletics.com,sidearm_legacy
+hamline,Hamline University,Minnesota Intercollegiate Athletic Conference,3,,MN,www.hamlineathletics.com,sidearm_legacy
+hampden_sydney,Hampden-Sydney College,Old Dominion Athletic Conf.,3,,VA,www.hscathletics.com,sidearm_legacy
+hampton,Hampton University,Coastal Athletic Association,1,FCS,VA,hamptonpirates.com,sidearm
+hanover,Hanover College,Heartland Collegiate Athletic Conference,3,,IN,athletics.hanover.edu,sidearm_legacy
+hardin_simmons,Hardin-Simmons University,American Southwest Conference,3,,TX,hsuathletics.com,sidearm_legacy
+harding,Harding University,Great American Conference,2,,AR,www.hardingsports.com,sidearm_legacy
+hartford,University of Hartford,Conference of New England,3,,CT,hartfordhawks.com,sidearm_legacy
+hartwick,Hartwick College,Empire 8,3,,NY,www.hartwickhawks.com,sidearm_legacy
+haverford,Haverford College,Centennial Conference,3,,PA,www.haverfordathletics.com,sidearm_legacy
+hawaii_hilo,University of Hawaii at Hilo,Pacific West Conference,2,,HI,hiloathletics.com,sidearm_legacy
+hawaii_manoa,"University of Hawaii, Manoa",Mountain West Conference,1,FBS,HI,hawaiiathletics.com,sidearm_legacy
+hawaii_pacific,Hawaii Pacific University,Pacific West Conference,2,,HI,www.hpusharks.com,sidearm_legacy
+heidelberg,Heidelberg University,Ohio Athletic Conference,3,,OH,bergathletics.com,sidearm_legacy
+henderson_state,Henderson State University,Great American Conference,2,,AR,hsusports.com,sidearm_legacy
+hendrix,Hendrix College,Southern Collegiate Athletic Conference,3,,AR,www.hendrixwarriors.com,sidearm_legacy
+high_point,High Point University,Big South Conference,1,,NC,www.highpointpanthers.com,sidearm_legacy
+hilbert,Hilbert College,Allegheny Mountain Collegiate Conference,3,,NY,www.hilberthawks.com,sidearm_legacy
+hillsdale,Hillsdale College,Great Midwest Athletic Conference,2,,MI,www.hillsdalechargers.com,sidearm_legacy
+hiram,Hiram College,Presidents' Athletic Conference,3,,OH,www.hiramterriers.com,sidearm_legacy
+hobart_and_william_smith_colleges,Hobart and William Smith Colleges,Liberty League,3,,NY,www.hwsathletics.com,sidearm_legacy
+hofstra,Hofstra University,Coastal Athletic Association,1,,NY,www.gohofstra.com,sidearm_legacy
+hollins,Hollins University,Old Dominion Athletic Conf.,3,,VA,www.hollinssports.com,sidearm_legacy
+holy_cross,College of the Holy Cross,Patriot League,1,FCS,MA,goholycross.com,sidearm_legacy
+holy_family,Holy Family University,Central Atlantic Collegiate Conference,2,,PA,athletics.holyfamily.edu,sidearm_legacy
+hood,Hood College,Middle Atlantic Conference Commonwealth,3,,MD,www.hoodathletics.com,sidearm_legacy
+hope,Hope College,Michigan Intercollegiate Athletic Association,3,,MI,athletics.hope.edu,sidearm_legacy
+houghton,Houghton University,Empire 8,3,,NY,athletics.houghton.edu,sidearm_legacy
+houston,University of Houston,Big 12 Conference,1,FBS,TX,uhcougars.com,sidearm
+houston_christian,Houston Christian University,Southland Conference,1,FCS,TX,www.hcuhuskies.com,sidearm_legacy
+howard,Howard University,Mid-Eastern Athletic Conf.,1,FCS,DC,www.hubison.com,sidearm_legacy
+howard_payne,Howard Payne University,American Southwest Conference,3,,TX,www.hpusports.com,sidearm_legacy
+hunter,Hunter College,City University of New York Athletic Conference,3,,NY,www.huntercollegeathletics.com,sidearm_legacy
+husson,Husson University,North Atlantic Conference,3,,ME,www.hussoneagles.com,sidearm_legacy
+idaho,University of Idaho,Big Sky Conference,1,FCS,ID,www.govandals.com,sidearm_legacy
+idaho_state,Idaho State University,Big Sky Conference,1,FCS,ID,www.isubengals.com,sidearm_legacy
+illinois,University of Illinois Urbana-Champaign,Big Ten Conference,1,FBS,IL,fightingillini.com,sidearm
+illinois_chicago,University of Illinois Chicago,Missouri Valley Conference,1,,IL,www.uicflames.com,sidearm_legacy
+illinois_college,Illinois College,Midwest Conference,3,,IL,www.illinoiscollegeathletics.com,sidearm_legacy
+illinois_institute_of_technology,Illinois Institute of Technology,Northern Athletics Collegiate Conference,3,,IL,www.illinoistechathletics.com,sidearm_legacy
+illinois_springfield,University of Illinois Springfield,Great Lakes Valley Conference,2,,IL,www.uisprairiestars.com,sidearm_legacy
+illinois_state,Illinois State University,Missouri Valley Conference,1,FCS,IL,goredbirds.com,sidearm_legacy
+illinois_wesleyan,Illinois Wesleyan University,College Conference of Illinois & Wisconsin,3,,IL,www.iwusports.com,sidearm_legacy
+immaculata,Immaculata University,Atlantic East Conference,3,,PA,www.gomightymacs.com,sidearm_legacy
+incarnate_word,University of the Incarnate Word,Southland Conference,1,FCS,TX,uiwcardinals.com,sidearm_legacy
+indiana,"Indiana University, Bloomington",Big Ten Conference,1,FBS,IN,iuhoosiers.com,sidearm
+indiana_state,Indiana State University,Missouri Valley Conference,1,FCS,IN,www.gosycamores.com,sidearm_legacy
+indiana_university_indianapolis,Indiana University Indianapolis,Horizon League,1,,IN,iuindyjags.com,sidearm_legacy
+indiana_university_of_pennsylvania,Indiana University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,iupathletics.com,sidearm_legacy
+iona,Iona University,Metro Conference,1,,NY,www.ionagaels.com,sidearm_legacy
+iowa,University of Iowa,Big Ten Conference,1,FBS,IA,hawkeyesports.com,wmt
+iowa_state,Iowa State University,Big 12 Conference,1,FBS,IA,cyclones.com,sidearm
+ithaca,Ithaca College,Liberty League,3,,NY,athletics.ithaca.edu,sidearm_legacy
+jackson_state,Jackson State University,Southwestern Athletic Conf.,1,FCS,MS,www.gojsutigers.com,sidearm_legacy
+jacksonville,Jacksonville University,Atlantic Sun Conference,1,,FL,www.judolphins.com,sidearm_legacy
+jacksonville_state,Jacksonville State University,Conference USA,1,FBS,AL,jaxstatesports.com,sidearm
+james_madison,James Madison University,Sun Belt Conference,1,FBS,VA,jmusports.com,sidearm
+jamestown,University of Jamestown,Northern Sun Intercollegiate Conference,2,,ND,jimmiepride.com,sidearm_legacy
+jessup,Jessup University,Pacific West Conference,2,,CA,jessupathletics.com,sidearm_legacy
+john_carroll,John Carroll University,North Coast Athletic Conference,3,,OH,www.jcusports.com,sidearm_legacy
+john_jay_college_of_criminal_justice,John Jay College of Criminal Justice,City University of New York Athletic Conference,3,,NY,www.johnjayathletics.com,sidearm_legacy
+johns_hopkins,Johns Hopkins University,Centennial Conference,3,,MD,www.hopkinssports.com,sidearm_legacy
+johnson_and_wales_university_charlotte,Johnson & Wales University Charlotte,Coast-To-Coast Athletic Conference,3,,NC,charlotte.jwuathletics.com,sidearm_legacy
+johnson_and_wales_university_providence,Johnson & Wales University (Providence),Conference of New England,3,,RI,providence.jwuathletics.com,sidearm_legacy
+johnson_c_smith,Johnson C. Smith University,Central Intercollegiate Athletic Association,2,,NC,www.goldenbullsports.com,sidearm_legacy
+kalamazoo,Kalamazoo College,Michigan Intercollegiate Athletic Association,3,,MI,hornets.kzoo.edu,sidearm_legacy
+kansas,University of Kansas,Big 12 Conference,1,FBS,KS,kuathletics.com,sidearm
+kansas_state,Kansas State University,Big 12 Conference,1,FBS,KS,www.kstatesports.com,sidearm
+kean,Kean University,New Jersey Athletic Conference,3,,NJ,www.keanathletics.com,sidearm_legacy
+keene_state,Keene State College,Little East Conference,3,,NH,www.keeneowls.com,sidearm_legacy
+kennesaw_state,Kennesaw State University,Conference USA,1,FBS,GA,www.ksuowls.com,sidearm_legacy
+kent_state,Kent State University,Mid-American Conference,1,FBS,OH,kentstatesports.com,sidearm
+kentucky,University of Kentucky,Southeastern Conference,1,FBS,KY,ukathletics.com,wordpress
+kentucky_state,Kentucky State University,Southern Intercol. Ath. Conf.,2,,KY,ksuthorobreds.com,sidearm_legacy
+kentucky_wesleyan,Kentucky Wesleyan College,Great Midwest Athletic Conference,2,,KY,kwcpanthers.com,sidearm_legacy
+kenyon,Kenyon College,North Coast Athletic Conference,3,,OH,athletics.kenyon.edu,sidearm_legacy
+keuka,Keuka College,Empire 8,3,,NY,www.keukaathletics.com,sidearm_legacy
+keystone,Keystone College,United East Conference,3,,PA,www.gokcgiants.com,sidearm_legacy
+king,King University,Conference Carolinas,2,,TN,www.kingtornado.com,sidearm_legacy
+knox,Knox College,Midwest Conference,3,,IL,prairiefire.knox.edu,sidearm_legacy
+kutztown_university_of_pennsylvania,Kutztown University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.kubears.com,sidearm_legacy
+la_salle,La Salle University,Atlantic 10 Conference,1,,PA,www.goexplorers.com,sidearm_legacy
+la_verne,University of La Verne,Southern California Intercollegiate Athletic Conf.,3,,CA,www.leopardathletics.com,sidearm_legacy
+lafayette,Lafayette College,Patriot League,1,FCS,PA,www.goleopards.com,sidearm_legacy
+lagrange,LaGrange College,Collegiate Conference of the South,3,,GA,www.lagrangepanthers.com,sidearm_legacy
+lake_erie,Lake Erie College,Great Midwest Athletic Conference,2,,OH,www.lakeeriestorm.com,sidearm_legacy
+lake_forest,Lake Forest College,Midwest Conference,3,,IL,www.goforesters.com,sidearm_legacy
+lake_superior_state,Lake Superior State University,Great Lakes Intercollegiate Athletic Conference,2,,MI,lssulakers.com,sidearm_legacy
+lakeland,Lakeland University,Northern Athletics Collegiate Conference,3,,WI,lakelandmuskies.com,sidearm_legacy
+lamar,Lamar University,Southland Conference,1,FCS,TX,www.lamarcardinals.com,sidearm_legacy
+lancaster_bible,Lancaster Bible College,United East Conference,3,,PA,www.lbcchargers.com,sidearm_legacy
+lander,Lander University,Peach Belt Conference,2,,SC,www.landerbearcats.com,sidearm_legacy
+lane,Lane College,Southern Intercol. Ath. Conf.,2,,TN,www.golcdragons.com,sidearm_legacy
+lawrence,Lawrence University,Midwest Conference,3,,WI,vikings.lawrence.edu,sidearm_legacy
+le_moyne,Le Moyne College,Northeast Conference,1,,NY,www.lemoynedolphins.com,sidearm_legacy
+lebanon_valley,Lebanon Valley College,Middle Atlantic Conference Freedom,3,,PA,www.godutchmen.com,sidearm_legacy
+lee,Lee University,Gulf South Conference,2,,TN,www.leeuflames.com,sidearm_legacy
+lees_mcrae,Lees-McRae College,Conference Carolinas,2,,NC,lmcbobcats.com,sidearm_legacy
+lehigh,Lehigh University,Patriot League,1,FCS,PA,lehighsports.com,sidearm
+lehman,Lehman College,City University of New York Athletic Conference,3,,NY,www.lehmanathletics.com,sidearm_legacy
+lemoyne_owen,LeMoyne-Owen College,Southern Intercol. Ath. Conf.,2,,TN,athletics.loc.edu,sidearm_legacy
+lenoir_rhyne,Lenoir-Rhyne University,South Atlantic Conference,2,,NC,www.lrbears.com,sidearm_legacy
+letourneau,LeTourneau University,Southern Collegiate Athletic Conference,3,,TX,www.letuathletics.com,sidearm_legacy
+lewis,Lewis University,Great Lakes Valley Conference,2,,IL,www.lewisflyers.com,sidearm_legacy
+lewis_and_clark,Lewis & Clark College,Northwest Conference,3,,OR,golcathletics.com,sidearm_legacy
+liberty,Liberty University,Conference USA,1,FBS,VA,libertyflames.com,sidearm
+lincoln_memorial,Lincoln Memorial University,South Atlantic Conference,2,,TN,www.lmurailsplitters.com,sidearm_legacy
+lincoln_university_missouri,Lincoln University (Missouri),Great Lakes Valley Conference,2,,MO,www.lubluetigers.com,sidearm_legacy
+lincoln_university_pennsylvania,Lincoln University (Pennsylvania),Central Intercollegiate Athletic Association,2,,PA,www.lulions.com,sidearm_legacy
+lindenwood,Lindenwood University,Ohio Valley Conference,1,FCS,MO,lindenwoodlions.com,sidearm_legacy
+linfield,Linfield University,Northwest Conference,3,,OR,golinfieldwildcats.com,sidearm_legacy
+lipscomb,Lipscomb University,Atlantic Sun Conference,1,,TN,lipscombsports.com,sidearm
+livingstone,Livingstone College,Central Intercollegiate Athletic Association,2,,NC,bluebearathletics.com,sidearm_legacy
+lock_haven_university_of_pennsylvania,Lock Haven University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.lockhavenathletics.com,sidearm_legacy
+long_beach_state,Long Beach State University,Big West Conference,1,,CA,longbeachstate.com,sidearm
+long_island,Long Island University,Northeast Conference,1,FCS,NY,www.liuathletics.com,sidearm_legacy
+longwood,Longwood University,Big South Conference,1,,VA,longwoodlancers.com,sidearm_legacy
+loras,Loras College,American Rivers Conference,3,,IA,www.duhawks.com,sidearm_legacy
+louisiana_lafayette,University of Louisiana at Lafayette,Sun Belt Conference,1,FBS,LA,ragincajuns.com,sidearm
+louisiana_monroe,University of Louisiana Monroe,Sun Belt Conference,1,FBS,LA,www.ulmwarhawks.com,sidearm_legacy
+louisiana_tech,Louisiana Tech University,Sun Belt Conference,1,FBS,LA,latechsports.com,sidearm
+louisville,University of Louisville,Atlantic Coast Conference,1,FBS,KY,gocards.com,sidearm
+loyola_marymount,Loyola Marymount University,West Coast Conference,1,,CA,www.lmulions.com,sidearm_legacy
+loyola_university_chicago,Loyola University Chicago,Atlantic 10 Conference,1,,IL,www.loyolaramblers.com,sidearm_legacy
+loyola_university_maryland,Loyola University Maryland,Patriot League,1,,MD,www.loyolagreyhounds.com,sidearm_legacy
+lsu,Louisiana State University,Southeastern Conference,1,FBS,LA,lsusports.net,wmt
+lsu_new_orleans,LSU New Orleans,Southland Conference,1,,LA,privateersports.com,sidearm_legacy
+lubbock_christian,Lubbock Christian University,Lone Star Conference,2,,TX,www.lcuchaps.com,sidearm_legacy
+lycoming,Lycoming College,Landmark Conference,3,,PA,lycomingathletics.com,sidearm_legacy
+lynchburg,University of Lynchburg,Old Dominion Athletic Conf.,3,,VA,www.lynchburgsports.com,sidearm_legacy
+lynn,Lynn University,Sunshine State Conference,2,,FL,www.lynnfightingknights.com,sidearm_legacy
+lyon,Lyon College,St. Louis Intercollegiate Athletic Conference,3,,AR,lyonscots.com,sidearm_legacy
+maine,University of Maine,America East Conference,1,FCS,ME,goblackbears.com,sidearm
+maine_farmington,"University of Maine, Farmington",North Atlantic Conference,3,,ME,www.goumfbeavers.com,sidearm_legacy
+maine_maritime_academy,Maine Maritime Academy,North Atlantic Conference,3,,ME,www.marinersports.org,sidearm_legacy
+maine_presque_isle,University of Maine at Presque Isle,North Atlantic Conference,3,,ME,owls.umpi.edu,sidearm_legacy
+malone,Malone University,Great Midwest Athletic Conference,2,,OH,www.malonepioneers.com,sidearm_legacy
+manchester,Manchester University,Heartland Collegiate Athletic Conference,3,,IN,www.muspartans.com,sidearm_legacy
+manhattan,Manhattan University,Metro Conference,1,,NY,www.gojaspers.com,sidearm_legacy
+manhattanville,Manhattanville University,Skyline Conference,3,,NY,www.govaliants.com,sidearm_legacy
+mansfield_university_of_pennsylvania,Mansfield University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.gomounties.com,sidearm_legacy
+maranatha_baptist,Maranatha Baptist University,Independent,3,,WI,mbusabercats.com,sidearm_legacy
+marian_university_wisconsin,Marian University (Wisconsin),Northern Athletics Collegiate Conference,3,,WI,www.sabreathletics.com,sidearm_legacy
+marietta,Marietta College,Ohio Athletic Conference,3,,OH,pioneers.marietta.edu,sidearm_legacy
+marist,Marist University,Metro Conference,1,FCS,NY,goredfoxes.com,sidearm_legacy
+marquette,Marquette University,BIG EAST Conference,1,,WI,gomarquette.com,sidearm
+marshall,Marshall University,Sun Belt Conference,1,FBS,WV,herdzone.com,sidearm
+martin_luther,Martin Luther College,Upper Midwest Athletic Conference,3,,MN,www.mlcknights.com,sidearm_legacy
+mary,University of Mary,Northern Sun Intercollegiate Conference,2,,ND,www.goumary.com,sidearm_legacy
+mary_baldwin,Mary Baldwin University,USA South Athletic Conference,3,,VA,www.marybaldwinathletics.com,sidearm_legacy
+mary_washington,University of Mary Washington,Coast-To-Coast Athletic Conference,3,,VA,www.umweagles.com,sidearm_legacy
+maryland,"University of Maryland, College Park",Big Ten Conference,1,FBS,MD,umterps.com,sidearm
+maryland_baltimore_county,"University of Maryland, Baltimore County",America East Conference,1,,MD,umbcretrievers.com,sidearm_legacy
+maryland_eastern_shore,University of Maryland Eastern Shore,Mid-Eastern Athletic Conf.,1,,MD,umeshawksports.com,sidearm_legacy
+marymount_university_virginia,Marymount University (Virginia),Atlantic East Conference,3,,VA,www.marymountsaints.com,sidearm_legacy
+maryville_college_tennessee,Maryville College (Tennessee),Southern Athletic Association,3,,TN,www.mcscots.com,sidearm_legacy
+maryville_university_of_saint_louis,Maryville University of Saint Louis,Great Lakes Valley Conference,2,,MO,www.maryvillesaints.com,sidearm_legacy
+marywood,Marywood University,Middle Atlantic Conference Freedom,3,,PA,www.marywoodpacers.com,sidearm_legacy
+massachusetts_amherst,"University of Massachusetts, Amherst",Mid-American Conference,1,FBS,MA,umassathletics.com,sidearm
+massachusetts_boston,University of Massachusetts Boston,Little East Conference,3,,MA,www.beaconsathletics.com,sidearm_legacy
+massachusetts_dartmouth,"University of Massachusetts, Dartmouth",Little East Conference,3,,MA,www.corsairathletics.com,sidearm_legacy
+massachusetts_institute_of_technology,Massachusetts Institute of Technology,New England Women's and Men's Athletic Conference,3,,MA,www.mitathletics.com,sidearm_legacy
+massachusetts_lowell,University of Massachusetts Lowell,America East Conference,1,,MA,goriverhawks.com,sidearm
+mckendree,McKendree University,Great Lakes Valley Conference,2,,IL,www.mckbearcats.com,sidearm_legacy
+mcmurry,McMurry University,American Southwest Conference,3,,TX,www.mcmurrysports.com,sidearm_legacy
+mcneese_state,McNeese State University,Southland Conference,1,FCS,LA,www.mcneesesports.com,sidearm_legacy
+medgar_evers,Medgar Evers College,City University of New York Athletic Conference,3,,NY,www.mecathletics.com,sidearm_legacy
+memphis,University of Memphis,American Conference,1,FBS,TN,gotigersgo.com,sidearm
+menlo,Menlo College,California Collegiate Athletic Association,2,,CA,menloathletics.com,sidearm_legacy
+mercer,Mercer University,Southern Conference,1,FCS,GA,mercerbears.com,sidearm
+mercy,Mercy University,East Coast Conference,2,,NY,www.mercyathletics.com,sidearm_legacy
+mercyhurst,Mercyhurst University,Northeast Conference,2,,PA,www.hurstathletics.com,sidearm_legacy
+meredith,Meredith College,USA South Athletic Conference,3,,NC,www.goavengingangels.com,sidearm_legacy
+merrimack,Merrimack College,Metro Conference,1,FCS,MA,www.merrimackathletics.com,sidearm_legacy
+messiah,Messiah University,Middle Atlantic Conference Commonwealth,3,,PA,www.gomessiah.com,sidearm_legacy
+methodist,Methodist University,USA South Athletic Conference,3,,NC,www.mumonarchs.com,sidearm_legacy
+metropolitan_state_university_of_denver,Metropolitan State University of Denver,Rocky Mountain Athletic Conference,2,,CO,www.roadrunnersathletics.com,sidearm_legacy
+miami_florida,University of Miami (Florida),Atlantic Coast Conference,1,FBS,FL,miamihurricanes.com,wmt
+miami_university_ohio,Miami University (Ohio),Mid-American Conference,1,FBS,OH,miamiredhawks.com,sidearm
+michigan,University of Michigan,Big Ten Conference,1,FBS,MI,mgoblue.com,sidearm
+michigan_state,Michigan State University,Big Ten Conference,1,FBS,MI,msuspartans.com,sidearm
+michigan_technological,Michigan Technological University,Great Lakes Intercollegiate Athletic Conference,2,,MI,www.michigantechhuskies.com,sidearm_legacy
+middle_tennessee_state,Middle Tennessee State University,Conference USA,1,FBS,TN,goblueraiders.com,sidearm
+midwestern_state,Midwestern State University,Lone Star Conference,2,,TX,msumustangs.com,sidearm_legacy
+miles,Miles College,Southern Intercol. Ath. Conf.,2,,AL,milesgoldenbears.com,sidearm_legacy
+millersville_university_of_pennsylvania,Millersville University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,millersvilleathletics.com,sidearm
+millikin,Millikin University,College Conference of Illinois & Wisconsin,3,,IL,athletics.millikin.edu,sidearm_legacy
+millsaps,Millsaps College,Southern Athletic Association,3,,MS,www.gomajors.com,sidearm_legacy
+milwaukee_school_of_engineering,Milwaukee School of Engineering,Northern Athletics Collegiate Conference,3,,WI,msoeraiders.com,sidearm_legacy
+minnesota,"University of Minnesota, Twin Cities",Big Ten Conference,1,FBS,MN,gophersports.com,sidearm
+minnesota_crookston,"University of Minnesota, Crookston",Northern Sun Intercollegiate Conference,2,,MN,www.goldeneaglesports.com,sidearm_legacy
+minnesota_duluth,University of Minnesota Duluth,Northern Sun Intercollegiate Conference,2,,MN,umdbulldogs.com,sidearm_legacy
+minnesota_morris,"University of Minnesota, Morris",Upper Midwest Athletic Conference,3,,MN,www.morriscougars.com,sidearm_legacy
+minnesota_state_university_mankato,"Minnesota State University, Mankato",Northern Sun Intercollegiate Conference,2,,MN,www.msumavericks.com,sidearm_legacy
+minnesota_state_university_moorhead,Minnesota State University Moorhead,Northern Sun Intercollegiate Conference,2,,MN,msumdragons.com,sidearm_legacy
+minot_state,Minot State University,Northern Sun Intercollegiate Conference,2,,ND,www.msubeavers.com,sidearm_legacy
+mississippi_christian,Mississippi Christian University,Gulf South Conference,2,,MS,www.gochoctaws.com,sidearm_legacy
+mississippi_state,Mississippi State University,Southeastern Conference,1,FBS,MS,hailstate.com,sidearm
+mississippi_university_for_women,Mississippi University for Women,St. Louis Intercollegiate Athletic Conference,3,,MS,www.owlsathletics.com,sidearm_legacy
+mississippi_valley_state,Mississippi Valley State University,Southwestern Athletic Conf.,1,FCS,MS,www.mvsusports.com,sidearm_legacy
+missouri,"University of Missouri, Columbia",Southeastern Conference,1,FBS,MO,mutigers.com,wmt
+missouri_kansas_city,University of Missouri-Kansas City,The Summit League,1,,MO,kcroos.com,sidearm
+missouri_southern_state,Missouri Southern State University,Mid-America Intercollegiate Athletics Association,2,,MO,mssulions.com,sidearm_legacy
+missouri_st_louis,University of Missouri-St. Louis,Great Lakes Valley Conference,2,,MO,umsltritons.com,sidearm_legacy
+missouri_state,Missouri State University,Conference USA,1,FBS,MO,missouristatebears.com,sidearm
+missouri_university_of_science_and_technology,Missouri University of Science and Technology,Great Lakes Valley Conference,2,,MO,www.minerathletics.com,sidearm_legacy
+missouri_western_state,Missouri Western State University,Mid-America Intercollegiate Athletics Association,2,,MO,www.gogriffons.com,sidearm_legacy
+molloy,Molloy University,East Coast Conference,2,,NY,www.molloylions.com,sidearm_legacy
+monmouth,Monmouth University,Coastal Athletic Association,1,FCS,NJ,www.monmouthhawks.com,sidearm_legacy
+monmouth_college_illinois,Monmouth College (Illinois),Midwest Conference,3,,IL,monmouthscots.com,sidearm_legacy
+montana,University of Montana,Big Sky Conference,1,FCS,MT,gogriz.com,sidearm
+montana_state_university_billings,Montana State University Billings,Great Northwest Athletic Conference,2,,MT,www.msubsports.com,sidearm_legacy
+montana_state_university_bozeman,Montana State University-Bozeman,Big Sky Conference,1,FCS,MT,msubobcats.com,sidearm
+montclair_state,Montclair State University,New Jersey Athletic Conference,3,,NJ,www.montclairathletics.com,sidearm_legacy
+montevallo,University of Montevallo,Gulf South Conference,2,,AL,www.montevallofalcons.com,sidearm_legacy
+morehead_state,Morehead State University,Ohio Valley Conference,1,FCS,KY,www.msueagles.com,sidearm_legacy
+morehouse,Morehouse College,Southern Intercol. Ath. Conf.,2,,GA,www.morehouseathletics.com,sidearm_legacy
+morgan_state,Morgan State University,Mid-Eastern Athletic Conf.,1,FCS,MD,www.morganstatebears.com,sidearm_legacy
+mount_aloysius,Mount Aloysius College,Allegheny Mountain Collegiate Conference,3,,PA,www.mountieathletics.com,sidearm_legacy
+mount_olive,University of Mount Olive,Conference Carolinas,2,,NC,www.umotrojans.com,sidearm_legacy
+mount_saint_mary_college_new_york,Mount Saint Mary College (New York),Skyline Conference,3,,NY,www.msmcknights.com,sidearm_legacy
+mount_saint_vincent,University of Mount Saint Vincent,Skyline Conference,3,,NY,umsvathletics.com,sidearm_legacy
+mount_st_joseph,Mount St. Joseph University,Heartland Collegiate Athletic Conference,3,,OH,www.msjlions.com,sidearm_legacy
+mount_st_marys,Mount St. Mary's University,Metro Conference,1,,MD,www.mountathletics.com,sidearm_legacy
+mount_union,University of Mount Union,Ohio Athletic Conference,3,,OH,athletics.mountunion.edu,sidearm_legacy
+muhlenberg,Muhlenberg College,Centennial Conference,3,,PA,www.muhlenbergsports.com,sidearm_legacy
+murray_state,Murray State University,Missouri Valley Conference,1,FCS,KY,goracers.com,sidearm
+nazareth,Nazareth University,Empire 8,3,,NY,www.nazathletics.com,sidearm_legacy
+nc_state,North Carolina State University,Atlantic Coast Conference,1,FBS,NC,gopack.com,sidearm
+nebraska,University of Nebraska-Lincoln,Big Ten Conference,1,FBS,NE,huskers.com,wmt
+nebraska_kearney,University of Nebraska at Kearney,Mid-America Intercollegiate Athletics Association,2,,NE,www.lopers.com,sidearm_legacy
+nebraska_omaha,University of Nebraska at Omaha,The Summit League,1,,NE,omahamavs.com,sidearm
+nebraska_wesleyan,Nebraska Wesleyan University,American Rivers Conference,3,,NE,www.nwusports.com,sidearm_legacy
+neumann,Neumann University,Middle Atlantic Conference Commonwealth,3,,PA,www.neumannathletics.com,sidearm_legacy
+nevada_las_vegas,"University of Nevada, Las Vegas",Mountain West Conference,1,FBS,NV,unlvrebels.com,sidearm
+nevada_reno,"University of Nevada, Reno",Mountain West Conference,1,FBS,NV,nevadawolfpack.com,sidearm_legacy
+new_england_college,New England College,Great Northeast Athletic Conference,3,,NH,athletics.nec.edu,sidearm_legacy
+new_hampshire,University of New Hampshire,America East Conference,1,FCS,NH,unhwildcats.com,sidearm
+new_haven,University of New Haven,Northeast Conference,2,,CT,www.newhavenchargers.com,sidearm_legacy
+new_jersey,The College of New Jersey,New Jersey Athletic Conference,3,,NJ,www.tcnjathletics.com,sidearm_legacy
+new_jersey_institute_of_technology,New Jersey Institute of Technology,America East Conference,1,,NJ,www.njithighlanders.com,sidearm_legacy
+new_mexico,University of New Mexico,Mountain West Conference,1,FBS,NM,golobos.com,wmt
+new_mexico_highlands,New Mexico Highlands University,Rocky Mountain Athletic Conference,2,,NM,www.nmhuathletics.com,sidearm_legacy
+new_mexico_state,New Mexico State University,Conference USA,1,FBS,NM,www.nmstatesports.com,sidearm_legacy
+new_york,New York University,University Athletic Association,3,,NY,www.gonyuathletics.com,sidearm_legacy
+newberry,Newberry College,South Atlantic Conference,2,,SC,www.newberrywolves.com,sidearm_legacy
+newman,Newman University,Mid-America Intercollegiate Athletics Association,2,,KS,www.newmanjets.com,sidearm_legacy
+niagara,Niagara University,Metro Conference,1,,NY,www.purpleeagles.com,sidearm_legacy
+nicholls_state,Nicholls State University,Southland Conference,1,FCS,LA,www.geauxcolonels.com,sidearm_legacy
+nichols,Nichols College,Conference of New England,3,,MA,www.nicholsathletics.com,sidearm_legacy
+norfolk_state,Norfolk State University,Mid-Eastern Athletic Conf.,1,FCS,VA,www.nsuspartans.com,sidearm_legacy
+north_alabama,University of North Alabama,United Athletic Conference,1,FCS,AL,www.roarlions.com,sidearm_legacy
+north_carolina,"University of North Carolina, Chapel Hill",Atlantic Coast Conference,1,FBS,NC,goheels.com,sidearm
+north_carolina_a_and_t_state,North Carolina A&T State University,Coastal Athletic Association,1,FCS,NC,www.ncataggies.com,sidearm_legacy
+north_carolina_asheville,University of North Carolina Asheville,Big South Conference,1,,NC,uncabulldogs.com,sidearm_legacy
+north_carolina_central,North Carolina Central University,Mid-Eastern Athletic Conf.,1,FCS,NC,www.nccueaglepride.com,sidearm_legacy
+north_carolina_charlotte,The University of North Carolina at Charlotte,American Conference,1,FBS,NC,charlotte49ers.com,sidearm
+north_carolina_greensboro,The University of North Carolina at Greensboro,Southern Conference,1,,NC,www.uncgspartans.com,sidearm_legacy
+north_carolina_pembroke,University of North Carolina at Pembroke,Conference Carolinas,2,,NC,www.uncpbraves.com,sidearm_legacy
+north_carolina_wesleyan,North Carolina Wesleyan University,USA South Athletic Conference,3,,NC,ncwsports.com,sidearm_legacy
+north_carolina_wilmington,University of North Carolina Wilmington,Coastal Athletic Association,1,,NC,www.uncwsports.com,sidearm_legacy
+north_central_college,North Central College,College Conference of Illinois & Wisconsin,3,,IL,northcentralcardinals.com,sidearm_legacy
+north_central_university,North Central University,Upper Midwest Athletic Conference,3,,MN,www.ncurams.com,sidearm_legacy
+north_dakota,University of North Dakota,The Summit League,1,FCS,ND,www.fightinghawks.com,sidearm_legacy
+north_dakota_state,North Dakota State University,The Summit League,1,FCS,ND,gobison.com,sidearm
+north_florida,University of North Florida,Atlantic Sun Conference,1,,FL,unfospreys.com,sidearm
+north_georgia,University of North Georgia,Peach Belt Conference,2,,GA,www.ungathletics.com,sidearm_legacy
+north_greenville,North Greenville University,Conference Carolinas,2,,SC,www.nguathletics.com,sidearm_legacy
+north_texas,University of North Texas,American Conference,1,FBS,TX,meangreensports.com,sidearm
+northeastern,Northeastern University,Coastal Athletic Association,1,,MA,www.nuhuskies.com,sidearm_legacy
+northeastern_state,Northeastern State University,Mid-America Intercollegiate Athletics Association,2,,OK,www.goriverhawksgo.com,sidearm_legacy
+northern_arizona,Northern Arizona University,Big Sky Conference,1,FCS,AZ,www.nauathletics.com,sidearm_legacy
+northern_colorado,University of Northern Colorado,Big Sky Conference,1,FCS,CO,uncbears.com,sidearm
+northern_illinois,Northern Illinois University,Horizon League,1,FBS,IL,www.niuhuskies.com,sidearm_legacy
+northern_iowa,University of Northern Iowa,Missouri Valley Conference,1,FCS,IA,unipanthers.com,sidearm
+northern_kentucky,Northern Kentucky University,Horizon League,1,,KY,www.nkunorse.com,sidearm_legacy
+northern_michigan,Northern Michigan University,Great Lakes Intercollegiate Athletic Conference,2,,MI,www.nmuwildcats.com,sidearm_legacy
+northern_state,Northern State University,Northern Sun Intercollegiate Conference,2,,SD,nsuwolves.com,sidearm_legacy
+northwest_missouri_state,Northwest Missouri State University,Mid-America Intercollegiate Athletics Association,2,,MO,bearcatsports.com,sidearm_legacy
+northwest_nazarene,Northwest Nazarene University,Great Northwest Athletic Conference,2,,ID,nnusports.com,sidearm_legacy
+northwestern,Northwestern University,Big Ten Conference,1,FBS,IL,nusports.com,wmt
+northwestern_oklahoma_state,Northwestern Oklahoma State University,Great American Conference,2,,OK,www.riderangersride.com,sidearm_legacy
+northwestern_st_paul,University of Northwestern-St. Paul,Upper Midwest Athletic Conference,3,,MN,unweagles.com,sidearm_legacy
+northwestern_state,Northwestern State University,Southland Conference,1,FCS,LA,www.nsudemons.com,sidearm_legacy
+norwich,Norwich University,Great Northeast Athletic Conference,3,,VT,www.norwichathletics.com,sidearm_legacy
+notre_dame,University of Notre Dame,Atlantic Coast Conference,1,FBS,IN,fightingirish.com,wmt
+notre_dame_of_maryland,Notre Dame of Maryland University,United East Conference,3,,MD,www.notredamegators.com,sidearm_legacy
+nova_southeastern,Nova Southeastern University,Sunshine State Conference,2,,FL,nsusharks.com,sidearm_legacy
+oakland,Oakland University,Horizon League,1,,MI,goldengrizzlies.com,sidearm_legacy
+oberlin,Oberlin College,North Coast Athletic Conference,3,,OH,www.goyeo.com,sidearm_legacy
+occidental,Occidental College,Southern California Intercollegiate Athletic Conf.,3,,CA,www.oxyathletics.com,sidearm_legacy
+oglethorpe,Oglethorpe University,Southern Athletic Association,3,,GA,www.gopetrels.com,sidearm_legacy
+ohio,Ohio University,Mid-American Conference,1,FBS,OH,ohiobobcats.com,sidearm
+ohio_dominican,Ohio Dominican University,Great Midwest Athletic Conference,2,,OH,www.ohiodominicanpanthers.com,sidearm_legacy
+ohio_state,The Ohio State University,Big Ten Conference,1,FBS,OH,ohiostatebuckeyes.com,sidearm
+ohio_wesleyan,Ohio Wesleyan University,North Coast Athletic Conference,3,,OH,battlingbishops.com,sidearm_legacy
+oklahoma,University of Oklahoma,Southeastern Conference,1,FBS,OK,soonersports.com,sidearm
+oklahoma_baptist,Oklahoma Baptist University,Great American Conference,2,,OK,www.obubison.com,sidearm_legacy
+oklahoma_christian,Oklahoma Christian University,Lone Star Conference,2,,OK,www.oceagles.com,sidearm_legacy
+oklahoma_state,Oklahoma State University,Big 12 Conference,1,FBS,OK,okstate.com,sidearm
+old_dominion,Old Dominion University,Sun Belt Conference,1,FBS,VA,odusports.com,wmt
+ole_miss,University of Mississippi,Southeastern Conference,1,FBS,MS,olemisssports.com,sidearm
+oral_roberts,Oral Roberts University,The Summit League,1,,OK,www.oruathletics.com,sidearm_legacy
+oregon,University of Oregon,Big Ten Conference,1,FBS,OR,goducks.com,sidearm
+oregon_state,Oregon State University,Pac-12 Conference,1,FBS,OR,osubeavers.com,sidearm
+otterbein,Otterbein University,Ohio Athletic Conference,3,,OH,www.otterbeincardinals.com,sidearm_legacy
+ouachita_baptist,Ouachita Baptist University,Great American Conference,2,,AR,www.obutigers.com,sidearm_legacy
+ozarks_arkansas,University of the Ozarks (Arkansas),Southern Collegiate Athletic Conference,3,,AR,www.uofoathletics.com,sidearm_legacy
+pace,Pace University,Northeast 10 Conference,2,,NY,www.paceuathletics.com,sidearm_legacy
+pacific,University of the Pacific,West Coast Conference,1,,CA,www.pacifictigers.com,sidearm_legacy
+pacific_lutheran,Pacific Lutheran University,Northwest Conference,3,,WA,www.golutes.com,sidearm_legacy
+pacific_university_oregon,Pacific University (Oregon),Northwest Conference,3,,OR,www.goboxers.com,sidearm_legacy
+palm_beach_atlantic,Palm Beach Atlantic University,Sunshine State Conference,2,,FL,www.pbasailfish.com,sidearm_legacy
+penn_state,Pennsylvania State University,Big Ten Conference,1,FBS,PA,gopsusports.com,wmt
+penn_state_berks,Penn State Berks College,United East Conference,3,,PA,www.psuberksathletics.com,sidearm_legacy
+penn_state_university_abington,"Penn State University, Abington",United East Conference,3,,PA,www.abingtonsports.com,sidearm_legacy
+pennsylvania,University of Pennsylvania,The Ivy League,1,FCS,PA,www.pennathletics.com,sidearm_legacy
+pennsylvania_college_of_technology,Pennsylvania College of Technology,United East Conference,3,,PA,pctwildcats.com,sidearm_legacy
+pennsylvania_western_university_california,"Pennsylvania Western University, California",Pennsylvania State Athletic Conference,2,,PA,www.calvulcans.com,sidearm_legacy
+pennsylvania_western_university_clarion,"Pennsylvania Western University, Clarion",Pennsylvania State Athletic Conference,2,,PA,www.clariongoldeneagles.com,sidearm_legacy
+pennsylvania_western_university_edinboro,"Pennsylvania Western University, Edinboro",Pennsylvania State Athletic Conference,2,,PA,www.gofightingscots.com,sidearm_legacy
+pepperdine,Pepperdine University,West Coast Conference,1,,CA,pepperdinewaves.com,sidearm
+pfeiffer,Pfeiffer University,USA South Athletic Conference,3,,NC,www.gofalconsports.com,sidearm_legacy
+piedmont,Piedmont University,Collegiate Conference of the South,3,,GA,www.piedmontlions.com,sidearm_legacy
+pittsburg_state,Pittsburg State University,Mid-America Intercollegiate Athletics Association,2,,KS,www.pittstategorillas.com,sidearm_legacy
+pittsburgh,University of Pittsburgh,Atlantic Coast Conference,1,FBS,PA,pittsburghpanthers.com,sidearm
+pittsburgh_greensburg,"University of Pittsburgh, Greensburg",Allegheny Mountain Collegiate Conference,3,,PA,pittgreensburgathletics.com,sidearm_legacy
+pittsburgh_johnstown,"University of Pittsburgh, Johnstown",Pennsylvania State Athletic Conference,2,,PA,pittjohnstownathletics.com,sidearm_legacy
+plattsburgh,Plattsburgh State University of New York,State University of New York Athletic Conference,3,,NY,www.gocardinalsports.com,sidearm_legacy
+plymouth_state,Plymouth State University,Little East Conference,3,,NH,athletics.plymouth.edu,sidearm_legacy
+point_loma_nazarene,Point Loma Nazarene University,Pacific West Conference,2,,CA,www.plnusealions.com,sidearm_legacy
+point_park,Point Park University,Mountain East Conference,2,,PA,pointparksports.com,sidearm_legacy
+pomona_pitzer_colleges,Pomona-Pitzer Colleges,Southern California Intercollegiate Athletic Conf.,3,,CA,www.sagehens.com,sidearm_legacy
+portland,University of Portland,West Coast Conference,1,,OR,www.portlandpilots.com,sidearm_legacy
+portland_state,Portland State University,Big Sky Conference,1,FCS,OR,goviks.com,sidearm_legacy
+post,Post University,Central Atlantic Collegiate Conference,2,,CT,www.posteagles.com,sidearm_legacy
+prairie_view_am,Prairie View A&M University,Southwestern Athletic Conf.,1,FCS,TX,www.pvpanthers.com,sidearm_legacy
+pratt_institute,Pratt Institute,Atlantic East Conference,3,,NY,www.goprattgo.com,sidearm_legacy
+presbyterian,Presbyterian College,Big South Conference,1,FCS,SC,gobluehose.com,sidearm_legacy
+princeton,Princeton University,The Ivy League,1,FCS,NJ,goprincetontigers.com,sidearm
+principia,Principia College,St. Louis Intercollegiate Athletic Conference,3,,IL,athletics.principiacollege.edu,sidearm_legacy
+providence,Providence College,BIG EAST Conference,1,,RI,friars.com,sidearm
+puget_sound,University of Puget Sound,Northwest Conference,3,,WA,www.loggerathletics.com,sidearm_legacy
+purchase,"Purchase College, State University of New York",Skyline Conference,3,,NY,www.purchasecollegeathletics.com,sidearm_legacy
+purdue,Purdue University,Big Ten Conference,1,FBS,IN,purduesports.com,wmt
+purdue_university_fort_wayne,Purdue University Fort Wayne,Horizon League,1,,IN,gomastodons.com,sidearm
+purdue_university_northwest,Purdue University Northwest,Great Lakes Intercollegiate Athletic Conference,2,,IN,www.pnwathletics.com,sidearm_legacy
+queens_college_new_york,Queens College (New York),East Coast Conference,2,,NY,www.queensknights.com,sidearm_legacy
+queens_university_of_charlotte,Queens University of Charlotte,Atlantic Sun Conference,1,,NC,queensathletics.com,sidearm
+quincy,Quincy University,Great Lakes Valley Conference,2,,IL,quhawks.com,sidearm_legacy
+quinnipiac,Quinnipiac University,Metro Conference,1,,CT,gobobcats.com,sidearm
+radford,Radford University,Big South Conference,1,,VA,radfordathletics.com,sidearm
+ramapo,Ramapo College,New Jersey Athletic Conference,3,,NJ,www.ramapoathletics.com,sidearm_legacy
+randolph,Randolph College,Old Dominion Athletic Conf.,3,,VA,www.randolphwildcats.com,sidearm_legacy
+randolph_macon,Randolph-Macon College,Old Dominion Athletic Conf.,3,,VA,www.rmcathletics.com,sidearm_legacy
+redlands,University of Redlands,Southern California Intercollegiate Athletic Conf.,3,,CA,www.goredlands.com,sidearm_legacy
+regent,Regent University,Coast-To-Coast Athletic Conference,3,,VA,regentroyals.com,sidearm_legacy
+regis_university_colorado,Regis University (Colorado),Rocky Mountain Athletic Conference,2,,CO,www.regisrangers.com,sidearm_legacy
+rensselaer_polytechnic_institute,Rensselaer Polytechnic Institute,Liberty League,3,,NY,www.rpiathletics.com,sidearm_legacy
+rhode_island,University of Rhode Island,Atlantic 10 Conference,1,FCS,RI,www.gorhody.com,sidearm_legacy
+rhode_island_college,Rhode Island College,Little East Conference,3,,RI,www.goanchormen.com,sidearm_legacy
+rhodes,Rhodes College,Southern Athletic Association,3,,TN,www.rhodeslynx.com,sidearm_legacy
+rice,Rice University,American Conference,1,FBS,TX,riceowls.com,sidearm
+richmond,University of Richmond,Atlantic 10 Conference,1,FCS,VA,richmondspiders.com,sidearm
+rider,Rider University,Metro Conference,1,,NJ,www.gobroncs.com,sidearm_legacy
+ripon,Ripon College,Midwest Conference,3,,WI,riponredhawks.com,sidearm_legacy
+rivier,Rivier University,Great Northeast Athletic Conference,3,,NH,www.rivierathletics.com,sidearm_legacy
+roanoke,Roanoke College,Old Dominion Athletic Conf.,3,,VA,www.roanokemaroons.com,sidearm_legacy
+robert_morris,Robert Morris University,Horizon League,1,FCS,PA,www.rmucolonials.com,sidearm_legacy
+roberts_wesleyan,Roberts Wesleyan University,East Coast Conference,2,,NY,www.robertsredhawks.com,sidearm_legacy
+rochester_institute_of_technology,Rochester Institute of Technology,Liberty League,3,,NY,www.ritathletics.com,sidearm_legacy
+rockford,Rockford University,Northern Athletics Collegiate Conference,3,,IL,www.rockfordregents.com,sidearm_legacy
+rockhurst,Rockhurst University,Great Lakes Valley Conference,2,,MO,www.rockhursthawks.com,sidearm_legacy
+roger_williams,Roger Williams University,Conference of New England,3,,RI,www.rwuhawks.com,sidearm_legacy
+rogers_state,Rogers State University,Mid-America Intercollegiate Athletics Association,2,,OK,www.rsuhillcats.com,sidearm_legacy
+rollins,Rollins College,Sunshine State Conference,2,,FL,rollinssports.com,sidearm_legacy
+roosevelt,Roosevelt University,Great Lakes Intercollegiate Athletic Conference,2,,IL,www.rooseveltlakers.com,sidearm_legacy
+rowan,Rowan University,New Jersey Athletic Conference,3,,NJ,www.rowanathletics.com,sidearm_legacy
+rutgers,"Rutgers, The State University of New Jersey, New Brunswick",Big Ten Conference,1,FBS,NJ,scarletknights.com,sidearm
+rutgers_the_state_univ_of_new_jersey_camden,"Rutgers, The State Univ. of New Jersey, Camden",New Jersey Athletic Conference,3,,NJ,www.scarletraptors.com,sidearm_legacy
+rutgers_the_state_univ_of_new_jersey_newark,"Rutgers, The State Univ. of New Jersey, Newark",New Jersey Athletic Conference,3,,NJ,www.rutgersnewarkathletics.com,sidearm_legacy
+sacred_heart,Sacred Heart University,Metro Conference,1,FCS,CT,sacredheartpioneers.com,sidearm
+saginaw_valley_state,Saginaw Valley State University,Great Lakes Intercollegiate Athletic Conference,2,,MI,www.svsucardinals.com,sidearm_legacy
+saint_anselm,Saint Anselm College,Northeast 10 Conference,2,,NH,www.saintanselmhawks.com,sidearm_legacy
+saint_benedict,College of Saint Benedict,Minnesota Intercollegiate Athletic Conference,3,,MN,www.gobennies.com,sidearm_legacy
+saint_elizabeth,Saint Elizabeth University,Atlantic East Conference,3,,NJ,seueagles.com,sidearm_legacy
+saint_francis,Saint Francis University,Presidents' Athletic Conference,1,FCS,PA,www.sfuathletics.com,sidearm_legacy
+saint_johns_university_minnesota,Saint John's University (Minnesota),Minnesota Intercollegiate Athletic Conference,3,,MN,www.gojohnnies.com,sidearm_legacy
+saint_josephs,Saint Joseph's University,Atlantic 10 Conference,1,,PA,sjuhawks.com,sidearm_legacy
+saint_josephs_college_maine,Saint Joseph's College (Maine),Great Northeast Athletic Conference,3,,ME,www.gomonks.com,sidearm_legacy
+saint_leo,Saint Leo University,Sunshine State Conference,2,,FL,www.saintleolions.com,sidearm_legacy
+saint_louis,Saint Louis University,Atlantic 10 Conference,1,,MO,www.slubillikens.com,sidearm_legacy
+saint_martins,Saint Martin's University,Great Northwest Athletic Conference,2,,WA,www.smusaints.com,sidearm_legacy
+saint_marys_college_indiana,Saint Mary's College (Indiana),Michigan Intercollegiate Athletic Association,3,,IN,belles.saintmarys.edu,sidearm_legacy
+saint_marys_college_of_california,Saint Mary's College of California,West Coast Conference,1,,CA,smcgaels.com,sidearm
+saint_marys_university_of_minnesota,Saint Mary's University of Minnesota,Minnesota Intercollegiate Athletic Conference,3,,MN,www.saintmaryssports.com,sidearm_legacy
+saint_michaels,Saint Michael's College,Northeast 10 Conference,2,,VT,www.smcathletics.com,sidearm_legacy
+saint_peters,Saint Peter's University,Metro Conference,1,,NJ,www.saintpeterspeacocks.com,sidearm_legacy
+saint_vincent,Saint Vincent College,Presidents' Athletic Conference,3,,PA,athletics.stvincent.edu,sidearm_legacy
+salem_university_west_virginia,Salem University (West Virginia),Independent,2,,WV,www.salemtigers.com,sidearm_legacy
+salisbury,Salisbury University,Coast-To-Coast Athletic Conference,3,,MD,www.suseagulls.com,sidearm_legacy
+salve_regina,Salve Regina University,New England Women's and Men's Athletic Conference,3,,RI,www.salveathletics.com,sidearm_legacy
+sam_houston_state,Sam Houston State University,Conference USA,1,FBS,TX,gobearkats.com,sidearm
+samford,Samford University,Southern Conference,1,FCS,AL,samfordsports.com,sidearm
+san_diego,University of San Diego,West Coast Conference,1,FCS,CA,www.usdtoreros.com,sidearm_legacy
+san_diego_state,San Diego State University,Pac-12 Conference,1,FBS,CA,goaztecs.com,wmt
+san_francisco,University of San Francisco,West Coast Conference,1,,CA,usfdons.com,sidearm
+san_francisco_state,San Francisco State University,California Collegiate Athletic Association,2,,CA,sfstategators.com,sidearm_legacy
+san_jose_state,San Jose State University,Mountain West Conference,1,FBS,CA,sjsuspartans.com,wmt
+santa_clara,Santa Clara University,West Coast Conference,1,,CA,santaclarabroncos.com,sidearm_legacy
+sarah_lawrence,Sarah Lawrence College,Skyline Conference,3,,NY,www.gogryphons.com,sidearm_legacy
+savannah_state,Savannah State University,Southern Intercol. Ath. Conf.,2,,GA,ssuathletics.com,sidearm_legacy
+scranton,University of Scranton,Landmark Conference,3,,PA,athletics.scranton.edu,sidearm_legacy
+seattle,Seattle University,West Coast Conference,1,,WA,goseattleu.com,wmt
+seattle_pacific,Seattle Pacific University,Great Northwest Athletic Conference,2,,WA,spufalcons.com,sidearm_legacy
+seton_hall,Seton Hall University,BIG EAST Conference,1,,NJ,shupirates.com,sidearm
+shaw,Shaw University,Central Intercollegiate Athletic Association,2,,NC,www.shawbears.com,sidearm_legacy
+shawnee_state,Shawnee State University,Mountain East Conference,2,,OH,www.ssubears.com,sidearm_legacy
+shenandoah,Shenandoah University,Old Dominion Athletic Conf.,3,,VA,www.suhornets.com,sidearm_legacy
+shepherd,Shepherd University,Pennsylvania State Athletic Conference,2,,WV,shepherdrams.com,sidearm_legacy
+shippensburg_university_of_pennsylvania,Shippensburg University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.shipraiders.com,sidearm_legacy
+shorter,Shorter University,Conference Carolinas,2,,GA,www.goshorterhawks.com,sidearm_legacy
+siena,Siena University,Metro Conference,1,,NY,www.sienasaints.com,sidearm_legacy
+simmons,Simmons University,Great Northeast Athletic Conference,3,,MA,athletics.simmons.edu,sidearm_legacy
+simon_fraser,Simon Fraser University,Great Northwest Athletic Conference,2,,BC,athletics.sfu.ca,sidearm_legacy
+sioux_falls,University of Sioux Falls,Northern Sun Intercollegiate Conference,2,,SD,www.usfcougars.com,sidearm_legacy
+skidmore,Skidmore College,Liberty League,3,,NY,skidmoreathletics.com,sidearm_legacy
+slippery_rock_university_of_pennsylvania,Slippery Rock University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.rockathletics.com,sidearm_legacy
+smith,Smith College,New England Women's and Men's Athletic Conference,3,,MA,www.gosmithbears.com,sidearm_legacy
+sonoma_state,Sonoma State University,California Collegiate Athletic Association,2,,CA,www.sonomaseawolves.com,sidearm_legacy
+south,University of the South,Southern Athletic Association,3,,TN,sewaneetigers.com,sidearm_legacy
+south_alabama,University of South Alabama,Sun Belt Conference,1,FBS,AL,www.usajaguars.com,sidearm_legacy
+south_carolina,"University of South Carolina, Columbia",Southeastern Conference,1,FBS,SC,gamecocksonline.com,wordpress
+south_carolina_aiken,University of South Carolina Aiken,Peach Belt Conference,2,,SC,www.pacersports.com,sidearm_legacy
+south_carolina_beaufort,University of South Carolina Beaufort,Peach Belt Conference,2,,SC,uscbathletics.com,sidearm_legacy
+south_carolina_state,South Carolina State University,Mid-Eastern Athletic Conf.,1,FCS,SC,www.scsuathletics.com,sidearm_legacy
+south_carolina_upstate,University of South Carolina Upstate,Big South Conference,1,,SC,upstatespartans.com,sidearm
+south_dakota,University of South Dakota,The Summit League,1,FCS,SD,www.goyotes.com,sidearm_legacy
+south_dakota_school_of_mines_and_technology,South Dakota School of Mines & Technology,Rocky Mountain Athletic Conference,2,,SD,gorockers.com,sidearm_legacy
+south_dakota_state,South Dakota State University,The Summit League,1,FCS,SD,gojacks.com,sidearm
+south_florida,University of South Florida,American Conference,1,FBS,FL,gousfbulls.com,sidearm
+southeast_missouri_state,Southeast Missouri State University,Ohio Valley Conference,1,FCS,MO,semoredhawks.com,sidearm
+southeastern_louisiana,Southeastern Louisiana University,Southland Conference,1,FCS,LA,www.lionsports.net,sidearm_legacy
+southeastern_oklahoma_state,Southeastern Oklahoma State University,Great American Conference,2,,OK,www.gosoutheastern.com,sidearm_legacy
+southern_arkansas,Southern Arkansas University,Great American Conference,2,,AR,www.muleriderathletics.com,sidearm_legacy
+southern_connecticut_state,Southern Connecticut State University,Northeast 10 Conference,2,,CT,scsuowls.com,sidearm_legacy
+southern_illinois_university_carbondale,Southern Illinois University at Carbondale,Missouri Valley Conference,1,FCS,IL,siusalukis.com,sidearm
+southern_illinois_university_edwardsville,Southern Illinois University Edwardsville,Ohio Valley Conference,1,,IL,www.siuecougars.com,sidearm_legacy
+southern_indiana,University of Southern Indiana,Ohio Valley Conference,1,,IN,www.usiscreamingeagles.com,sidearm_legacy
+southern_maine,University of Southern Maine,Little East Conference,3,,ME,www.southernmainehuskies.com,sidearm_legacy
+southern_methodist,Southern Methodist University,Atlantic Coast Conference,1,FBS,TX,smumustangs.com,sidearm
+southern_mississippi,The University of Southern Mississippi,Sun Belt Conference,1,FBS,MS,southernmiss.com,sidearm
+southern_nazarene,Southern Nazarene University,Great American Conference,2,,OK,snuathletics.com,sidearm_legacy
+southern_new_hampshire,Southern New Hampshire University,Northeast 10 Conference,2,,NH,www.snhupenmen.com,sidearm_legacy
+southern_university_baton_rouge,"Southern University, Baton Rouge",Southwestern Athletic Conf.,1,FCS,LA,www.gojagsports.com,sidearm_legacy
+southern_utah,Southern Utah University,Big Sky Conference,1,FCS,UT,www.suutbirds.com,sidearm_legacy
+southern_virginia,Southern Virginia University,USA South Athletic Conference,3,,VA,knightathletics.com,sidearm_legacy
+southern_wesleyan,Southern Wesleyan University,Conference Carolinas,2,,SC,swuathletics.com,sidearm_legacy
+southwest_baptist,Southwest Baptist University,Great Lakes Valley Conference,2,,MO,www.sbubearcats.com,sidearm_legacy
+southwest_minnesota_state,Southwest Minnesota State University,Northern Sun Intercollegiate Conference,2,,MN,www.smsumustangs.com,sidearm_legacy
+southwestern_oklahoma_state,Southwestern Oklahoma State University,Great American Conference,2,,OK,www.swosuathletics.com,sidearm_legacy
+southwestern_university_texas,Southwestern University (Texas),Southern Athletic Association,3,,TX,www.southwesternpirates.com,sidearm_legacy
+spalding,Spalding University,St. Louis Intercollegiate Athletic Conference,3,,KY,www.spaldingathletics.com,sidearm_legacy
+spring_hill,Spring Hill College,Southern Intercol. Ath. Conf.,2,,AL,www.shcbadgers.com,sidearm_legacy
+st_bonaventure,St. Bonaventure University,Atlantic 10 Conference,1,,NY,www.gobonnies.com,sidearm_legacy
+st_catherine,St. Catherine University,Minnesota Intercollegiate Athletic Conference,3,,MN,www.stkatesathletics.com,sidearm_legacy
+st_edwards,St. Edward's University,Lone Star Conference,2,,TX,gohilltoppers.com,sidearm_legacy
+st_john_fisher,St. John Fisher University,Empire 8,3,,NY,www.sjfathletics.com,sidearm_legacy
+st_johns_university_new_york,St. John's University (New York),BIG EAST Conference,1,,NY,redstormsports.com,sidearm
+st_josephs_university_new_york_li,"St. Joseph's University, New York L.I.",Skyline Conference,3,,NY,www.sjliathletics.com,sidearm_legacy
+st_josephs_university_ny_brooklyn,St. Joseph's University NY (Brooklyn),Skyline Conference,3,,NY,sjbkathletics.com,sidearm_legacy
+st_lawrence,St. Lawrence University,Liberty League,3,,NY,www.saintsathletics.com,sidearm_legacy
+st_marys_college_of_maryland,St. Mary's College of Maryland,United East Conference,3,,MD,www.smcmathletics.com,sidearm_legacy
+st_marys_university_texas,St. Mary's University (Texas),Lone Star Conference,2,,TX,www.rattlerathletics.com,sidearm_legacy
+st_norbert,St. Norbert College,Northern Athletics Collegiate Conference,3,,WI,athletics.snc.edu,sidearm_legacy
+st_olaf,St. Olaf College,Minnesota Intercollegiate Athletic Conference,3,,MN,athletics.stolaf.edu,sidearm_legacy
+st_scholastica,The College of St. Scholastica,Minnesota Intercollegiate Athletic Conference,3,,MN,www.csssaints.com,sidearm_legacy
+st_thomas_minnesota,University of St. Thomas (Minnesota),The Summit League,1,FCS,MN,tommiesports.com,sidearm
+st_thomas_texas,University of St. Thomas (Texas),Southern Collegiate Athletic Conference,3,,TX,www.ustcelts.com,sidearm_legacy
+stanford,Stanford University,Atlantic Coast Conference,1,FBS,CA,gostanford.com,wmt
+staten_island,College of Staten Island,East Coast Conference,2,,NY,www.csidolphins.com,sidearm_legacy
+stephen_f_austin_state,Stephen F. Austin State University,Southland Conference,1,FCS,TX,sfajacks.com,sidearm
+stetson,Stetson University,Atlantic Sun Conference,1,FCS,FL,www.gohatters.com,sidearm_legacy
+stevens_institute_of_technology,Stevens Institute of Technology,Middle Atlantic Conference Freedom,3,,NJ,www.stevensducks.com,sidearm_legacy
+stevenson,Stevenson University,Middle Atlantic Conference Commonwealth,3,,MD,www.gomustangsports.com,sidearm_legacy
+stockton,Stockton University,New Jersey Athletic Conference,3,,NJ,www.stocktonathletics.com,sidearm_legacy
+stonehill,Stonehill College,Northeast Conference,1,FCS,MA,www.stonehillskyhawks.com,sidearm_legacy
+stony_brook,Stony Brook University,Coastal Athletic Association,1,FCS,NY,stonybrookathletics.com,sidearm_legacy
+sul_ross_state,Sul Ross State University,Lone Star Conference,2,,TX,www.srlobos.com,sidearm_legacy
+suny_brockport,State University of New York at Brockport,Empire 8,3,,NY,gobrockport.com,sidearm_legacy
+suny_canton,State University of New York at Canton,State University of New York Athletic Conference,3,,NY,www.rooathletics.com,sidearm_legacy
+suny_cobleskill,State University of New York at Cobleskill,State University of New York Athletic Conference,3,,NY,fightingtigers.cobleskill.edu,sidearm_legacy
+suny_fredonia,The State University of New York at Fredonia,State University of New York Athletic Conference,3,,NY,www.fredoniabluedevils.com,sidearm_legacy
+suny_geneseo,State University of New York at Geneseo,Empire 8,3,,NY,www.geneseoknights.com,sidearm_legacy
+suny_maritime,State University of New York Maritime College,Skyline Conference,3,,NY,www.maritimeathletics.com,sidearm_legacy
+suny_morrisville,State University of New York at Morrisville,State University of New York Athletic Conference,3,,NY,morrisvillemustangs.com,sidearm_legacy
+suny_new_paltz,State University of New York at New Paltz,New Jersey Athletic Conference,3,,NY,www.nphawks.com,sidearm_legacy
+suny_old_westbury,State University of New York at Old Westbury,Skyline Conference,3,,NY,www.oldwestburypanthers.com,sidearm_legacy
+suny_oneonta,State University of New York at Oneonta,State University of New York Athletic Conference,3,,NY,www.oneontaathletics.com,sidearm_legacy
+suny_oswego,State University of New York at Oswego,State University of New York Athletic Conference,3,,NY,oswegolakers.com,sidearm_legacy
+suny_polytechnic_institute,State University of New York Polytechnic Institute,Empire 8,3,,NY,wildcats.sunypoly.edu,sidearm_legacy
+suny_potsdam,State University of New York at Potsdam,State University of New York Athletic Conference,3,,NY,www.potsdambears.com,sidearm_legacy
+swarthmore,Swarthmore College,Centennial Conference,3,,PA,swarthmoreathletics.com,sidearm_legacy
+sweet_briar,Sweet Briar College,Old Dominion Athletic Conf.,3,,VA,www.vixenathletics.com,sidearm_legacy
+syracuse,Syracuse University,Atlantic Coast Conference,1,FBS,NY,cuse.com,sidearm
+tarleton_state,Tarleton State University,United Athletic Conference,1,FCS,TX,tarletonsports.com,sidearm_legacy
+tcu,Texas Christian University,Big 12 Conference,1,FBS,TX,gofrogs.com,sidearm
+temple,Temple University,American Conference,1,FBS,PA,owlsports.com,sidearm
+tennessee,"University of Tennessee, Knoxville",Southeastern Conference,1,FBS,TN,utsports.com,sidearm
+tennessee_chattanooga,University of Tennessee at Chattanooga,Southern Conference,1,FCS,TN,gomocs.com,sidearm
+tennessee_martin,University of Tennessee at Martin,Ohio Valley Conference,1,FCS,TN,utmsports.com,sidearm
+tennessee_state,Tennessee State University,Ohio Valley Conference,1,FCS,TN,www.tsutigers.com,sidearm_legacy
+texas,University of Texas at Austin,Southeastern Conference,1,FBS,TX,texaslonghorns.com,sidearm
+texas_am,"Texas A&M University, College Station",Southeastern Conference,1,FBS,TX,12thman.com,wmt
+texas_am_international,Texas A&M International University,Lone Star Conference,2,,TX,godustdevils.com,sidearm_legacy
+texas_am_university_corpus_christi,Texas A&M University-Corpus Christi,Southland Conference,1,,TX,www.goislanders.com,sidearm_legacy
+texas_am_university_kingsville,Texas A&M University-Kingsville,Lone Star Conference,2,,TX,www.javelinaathletics.com,sidearm_legacy
+texas_arlington,University of Texas at Arlington,United Athletic Conference,1,,TX,utamavs.com,sidearm
+texas_dallas,University of Texas at Dallas,Lone Star Conference,2,,TX,utdcomets.com,sidearm_legacy
+texas_el_paso,University of Texas at El Paso,Mountain West Conference,1,FBS,TX,www.utepminers.com,sidearm_legacy
+texas_lutheran,Texas Lutheran University,Southern Collegiate Athletic Conference,3,,TX,tlubulldogs.com,sidearm_legacy
+texas_permian_basin,The University of Texas Permian Basin,Lone Star Conference,2,,TX,www.utpbfalcons.com,sidearm_legacy
+texas_rio_grande_valley,The University of Texas Rio Grande Valley,Southland Conference,1,FCS,TX,goutrgv.com,sidearm_legacy
+texas_san_antonio,University of Texas at San Antonio,American Conference,1,FBS,TX,goutsa.com,wmt
+texas_southern,Texas Southern University,Southwestern Athletic Conf.,1,FCS,TX,www.tsusports.com,sidearm_legacy
+texas_state,Texas State University,Pac-12 Conference,1,FBS,TX,txst.com,sidearm_legacy
+texas_tech,Texas Tech University,Big 12 Conference,1,FBS,TX,texastech.com,sidearm
+texas_tyler,The University of Texas at Tyler,Lone Star Conference,2,,TX,www.uttylerpatriots.com,sidearm_legacy
+texas_womans,Texas Woman's University,Lone Star Conference,2,,TX,www.twuathletics.com,sidearm_legacy
+thiel,Thiel College,Presidents' Athletic Conference,3,,PA,www.thielathletics.com,sidearm_legacy
+thomas,Thomas College,North Atlantic Conference,3,,ME,athletics.thomas.edu,sidearm_legacy
+thomas_jefferson,Thomas Jefferson University,Central Atlantic Collegiate Conference,2,,PA,www.jeffersonrams.com,sidearm_legacy
+thomas_more,Thomas More University,Great Midwest Athletic Conference,2,,KY,www.thomasmoresaints.com,sidearm_legacy
+tiffin,Tiffin University,Great Midwest Athletic Conference,2,,OH,www.gotiffindragons.com,sidearm_legacy
+toledo,University of Toledo,Mid-American Conference,1,FBS,OH,utrockets.com,sidearm
+towson,Towson University,Coastal Athletic Association,1,FCS,MD,www.towsontigers.com,sidearm_legacy
+transylvania,Transylvania University,Heartland Collegiate Athletic Conference,3,,KY,www.transysports.com,sidearm_legacy
+trevecca_nazarene,Trevecca Nazarene University,Gulf South Conference,2,,TN,www.tnutrojans.com,sidearm_legacy
+trine,Trine University,Michigan Intercollegiate Athletic Association,3,,IN,www.trinethunder.com,sidearm_legacy
+trinity_college_connecticut,Trinity College (Connecticut),New England Small College Athletic Conference,3,,CT,www.bantamsports.com,sidearm_legacy
+trinity_university_texas,Trinity University (Texas),Southern Athletic Association,3,,TX,www.trinitytigers.com,sidearm_legacy
+troy,Troy University,Sun Belt Conference,1,FBS,AL,troytrojans.com,sidearm
+truman_state,Truman State University,Great Lakes Valley Conference,2,,MO,www.trumanbulldogs.com,sidearm_legacy
+tufts,Tufts University,New England Small College Athletic Conference,3,,MA,www.gotuftsjumbos.com,sidearm_legacy
+tulane,Tulane University,American Conference,1,FBS,LA,tulanegreenwave.com,sidearm
+tulsa,The University of Tulsa,American Conference,1,FBS,OK,tulsahurricane.com,sidearm
+tuskegee,Tuskegee University,Southern Intercol. Ath. Conf.,2,,AL,www.goldentigersports.com,sidearm_legacy
+uc_davis,"University of California, Davis",Mountain West Conference,1,FCS,CA,www.ucdavisaggies.com,sidearm_legacy
+uc_irvine,"University of California, Irvine",Big West Conference,1,,CA,ucirvinesports.com,sidearm
+uc_merced,"University of California, Merced",California Collegiate Athletic Association,2,,CA,www.ucmercedbobcats.com,sidearm_legacy
+uc_riverside,"University of California, Riverside",Big West Conference,1,,CA,gohighlanders.com,sidearm
+uc_san_diego,"University of California, San Diego",Big West Conference,1,,CA,www.ucsdtritons.com,sidearm_legacy
+uc_santa_barbara,"University of California, Santa Barbara",Big West Conference,1,,CA,ucsbgauchos.com,sidearm_legacy
+uc_santa_cruz,"University of California, Santa Cruz",Coast-To-Coast Athletic Conference,3,,CA,goslugs.com,sidearm
+ucf,University of Central Florida,Big 12 Conference,1,FBS,FL,ucfknights.com,wmt
+ucla,"University of California, Los Angeles",Big Ten Conference,1,FBS,CA,uclabruins.com,wmt
+union,Union University,Gulf South Conference,2,,TN,www.uuathletics.com,sidearm_legacy
+union_college_new_york,Union College (New York),Liberty League,3,,NY,www.unionathletics.com,sidearm_legacy
+university_albany,University at Albany,America East Conference,1,FCS,NY,www.ualbanysports.com,sidearm_legacy
+university_buffalo,"University at Buffalo, the State University of New York",Mid-American Conference,1,FBS,NY,ubbulls.com,sidearm
+university_of_new_england,University of New England,Conference of New England,3,,ME,athletics.une.edu,sidearm_legacy
+upper_iowa,Upper Iowa University,Great Lakes Valley Conference,2,,IA,uiupeacocks.com,sidearm_legacy
+ursinus,Ursinus College,Centennial Conference,3,,PA,www.ursinusathletics.com,sidearm_legacy
+ursuline,Ursuline College,Great Midwest Athletic Conference,2,,OH,www.ursulinearrows.com,sidearm_legacy
+us_air_force_academy,U.S. Air Force Academy,Mountain West Conference,1,FBS,CO,goairforcefalcons.com,sidearm
+us_coast_guard_academy,U.S. Coast Guard Academy,New England Women's and Men's Athletic Conference,3,,CT,coastguardathletics.com,sidearm_legacy
+us_merchant_marine_academy,U.S. Merchant Marine Academy,Skyline Conference,3,,NY,usmmasports.com,sidearm_legacy
+us_military_academy,U.S. Military Academy,Patriot League,1,FBS,NY,goarmywestpoint.com,sidearm
+us_naval_academy,U.S. Naval Academy,Patriot League,1,FBS,MD,www.navysports.com,sidearm_legacy
+usc,University of Southern California,Big Ten Conference,1,FBS,CA,usctrojans.com,sidearm
+utah,University of Utah,Big 12 Conference,1,FBS,UT,utahutes.com,sidearm
+utah_state,Utah State University,Pac-12 Conference,1,FBS,UT,www.utahstateaggies.com,sidearm_legacy
+utah_tech,Utah Tech University,Big Sky Conference,1,FCS,UT,utahtechtrailblazers.com,sidearm_legacy
+utah_valley,Utah Valley University,Big West Conference,1,,UT,www.gouvu.com,sidearm_legacy
+utica,Utica University,Empire 8,3,,NY,www.uticapioneers.com,sidearm_legacy
+valdosta_state,Valdosta State University,Gulf South Conference,2,,GA,www.vstateblazers.com,sidearm_legacy
+valparaiso,Valparaiso University,Missouri Valley Conference,1,FCS,IN,www.valpoathletics.com,sidearm_legacy
+vanderbilt,Vanderbilt University,Southeastern Conference,1,FBS,TN,vucommodores.com,wmt
+vanguard,Vanguard University,Pacific West Conference,2,,CA,www.vanguardlions.com,sidearm_legacy
+vassar,Vassar College,Liberty League,3,,NY,www.vassarathletics.com,sidearm_legacy
+vermont,University of Vermont,America East Conference,1,,VT,www.uvmathletics.com,sidearm_legacy
+vermont_state_university_castleton,Vermont State University Castleton,Little East Conference,3,,VT,www.castletonsports.com,sidearm_legacy
+vermont_state_university_lyndon,Vermont State University Lyndon,North Atlantic Conference,3,,VT,vtsuhornets.com,sidearm_legacy
+villanova,Villanova University,BIG EAST Conference,1,FCS,PA,www.villanova.com,sidearm_legacy
+virginia,University of Virginia,Atlantic Coast Conference,1,FBS,VA,virginiasports.com,wmt
+virginia_commonwealth,Virginia Commonwealth University,Atlantic 10 Conference,1,,VA,www.vcuathletics.com,sidearm_legacy
+virginia_military_institute,Virginia Military Institute,Southern Conference,1,FCS,VA,www.vmikeydets.com,sidearm_legacy
+virginia_state,Virginia State University,Central Intercollegiate Athletic Association,2,,VA,www.govsutrojans.com,sidearm_legacy
+virginia_tech,Virginia Polytechnic Institute and State University,Atlantic Coast Conference,1,FBS,VA,hokiesports.com,wmt
+virginia_union,Virginia Union University,Central Intercollegiate Athletic Association,2,,VA,vuusports.com,sidearm_legacy
+virginias_college_wise,The University of Virginia's College at Wise,South Atlantic Conference,2,,VA,www.uvawisecavs.com,sidearm_legacy
+wabash,Wabash College,North Coast Athletic Conference,3,,IN,sports.wabash.edu,sidearm_legacy
+wagner,Wagner College,Northeast Conference,1,FCS,NY,www.wagnerathletics.com,sidearm_legacy
+wake_forest,Wake Forest University,Atlantic Coast Conference,1,FBS,NC,godeacs.com,sidearm
+walsh,Walsh University,Great Midwest Athletic Conference,2,,OH,athletics.walsh.edu,sidearm_legacy
+warren_wilson,Warren Wilson College,Coast-To-Coast Athletic Conference,3,,NC,warrenwilsonowls.com,sidearm_legacy
+wartburg,Wartburg College,American Rivers Conference,3,,IA,www.go-knights.net,sidearm_legacy
+washburn,Washburn University,Mid-America Intercollegiate Athletics Association,2,,KS,www.wusports.com,sidearm_legacy
+washington,University of Washington,Big Ten Conference,1,FBS,WA,gohuskies.com,sidearm
+washington_and_jefferson,Washington and Jefferson College,Presidents' Athletic Conference,3,,PA,www.gopresidents.com,sidearm_legacy
+washington_and_lee,Washington and Lee University,Old Dominion Athletic Conf.,3,,VA,generalssports.com,sidearm_legacy
+washington_college_maryland,Washington College (Maryland),Centennial Conference,3,,MD,washcollsports.com,sidearm_legacy
+washington_state,Washington State University,Pac-12 Conference,1,FBS,WA,wsucougars.com,wmt
+washington_university_st_louis,Washington University in St. Louis,University Athletic Association,3,,MO,washubears.com,sidearm_legacy
+wayne_state_college_nebraska,Wayne State College (Nebraska),Northern Sun Intercollegiate Conference,2,,NE,www.wscwildcats.com,sidearm_legacy
+wayne_state_university_michigan,Wayne State University (Michigan),Great Lakes Intercollegiate Athletic Conference,2,,MI,www.wsuathletics.com,sidearm_legacy
+waynesburg,Waynesburg University,Presidents' Athletic Conference,3,,PA,www.waynesburgsports.com,sidearm_legacy
+weber_state,Weber State University,Big Sky Conference,1,FCS,UT,weberstatesports.com,sidearm
+webster,Webster University,St. Louis Intercollegiate Athletic Conference,3,,MO,websterathletics.com,sidearm_legacy
+wellesley,Wellesley College,New England Women's and Men's Athletic Conference,3,,MA,www.wellesleyblue.com,sidearm_legacy
+west_alabama,University of West Alabama,Gulf South Conference,2,,AL,www.uwaathletics.com,sidearm_legacy
+west_chester_university_of_pennsylvania,West Chester University of Pennsylvania,Pennsylvania State Athletic Conference,2,,PA,www.wcupagoldenrams.com,sidearm_legacy
+west_florida,University of West Florida,Atlantic Sun Conference,2,,FL,www.goargos.com,sidearm_legacy
+west_georgia,University of West Georgia,United Athletic Conference,2,,GA,www.uwgathletics.com,sidearm_legacy
+west_liberty,West Liberty University,Mountain East Conference,2,,WV,www.hilltoppersports.com,sidearm_legacy
+west_texas_am,West Texas A&M University,Lone Star Conference,2,,TX,www.gobuffsgo.com,sidearm_legacy
+west_virginia,West Virginia University,Big 12 Conference,1,FBS,WV,wvusports.com,sidearm
+west_virginia_state,West Virginia State University,Mountain East Conference,2,,WV,www.wvsuyellowjackets.com,sidearm_legacy
+west_virginia_wesleyan,West Virginia Wesleyan College,Mountain East Conference,2,,WV,wesleyanbobcats.com,sidearm_legacy
+western_carolina,Western Carolina University,Southern Conference,1,FCS,NC,www.catamountsports.com,sidearm_legacy
+western_colorado,Western Colorado University,Rocky Mountain Athletic Conference,2,,CO,www.gomountaineers.com,sidearm_legacy
+western_connecticut_state,Western Connecticut State University,Little East Conference,3,,CT,www.westconnathletics.com,sidearm_legacy
+western_illinois,Western Illinois University,Ohio Valley Conference,1,FCS,IL,www.goleathernecks.com,sidearm_legacy
+western_kentucky,Western Kentucky University,Conference USA,1,FBS,KY,wkusports.com,sidearm
+western_michigan,Western Michigan University,Mid-American Conference,1,FBS,MI,www.wmubroncos.com,sidearm_legacy
+western_new_england,Western New England University,Conference of New England,3,,MA,www.wnegoldenbears.com,sidearm_legacy
+western_new_mexico,Western New Mexico University,Lone Star Conference,2,,NM,www.wnmumustangs.com,sidearm_legacy
+western_oregon,Western Oregon University,Great Northwest Athletic Conference,2,,OR,www.wouwolves.com,sidearm_legacy
+western_washington,Western Washington University,Great Northwest Athletic Conference,2,,WA,www.wwuvikings.com,sidearm_legacy
+westminster_university_utah,Westminster University (Utah),Rocky Mountain Athletic Conference,2,,UT,www.westminstergriffins.com,sidearm_legacy
+westmont,Westmont College,Pacific West Conference,2,,CA,athletics.westmont.edu,sidearm_legacy
+wheaton_college_illinois,Wheaton College (Illinois),College Conference of Illinois & Wisconsin,3,,IL,athletics.wheaton.edu,sidearm_legacy
+wheaton_college_massachusetts,Wheaton College (Massachusetts),New England Women's and Men's Athletic Conference,3,,MA,wheatoncollegelyons.com,sidearm_legacy
+wheeling,Wheeling University,Mountain East Conference,2,,WV,wucardinals.com,sidearm_legacy
+whittier,Whittier College,Southern California Intercollegiate Athletic Conf.,3,,CA,www.wcpoets.com,sidearm_legacy
+whitworth,Whitworth University,Northwest Conference,3,,WA,www.whitworthpirates.com,sidearm_legacy
+wichita_state,Wichita State University,American Conference,1,,KS,www.goshockers.com,sidearm_legacy
+widener,Widener University,Middle Atlantic Conference Commonwealth,3,,PA,www.widenerpride.com,sidearm_legacy
+wilkes,Wilkes University,Landmark Conference,3,,PA,www.gowilkesu.com,sidearm_legacy
+william_and_mary,William & Mary,Coastal Athletic Association,1,FCS,VA,www.tribeathletics.com,sidearm_legacy
+william_jewell,William Jewell College,Great Lakes Valley Conference,2,,MO,www.jewellcardinals.com,sidearm_legacy
+william_paterson_university_of_new_jersey,William Paterson University of New Jersey,New Jersey Athletic Conference,3,,NJ,www.wpupioneers.com,sidearm_legacy
+william_peace,William Peace University,USA South Athletic Conference,3,,NC,www.gopeacepacers.com,sidearm_legacy
+williams,Williams College,New England Small College Athletic Conference,3,,MA,ephsports.williams.edu,sidearm_legacy
+wilson,Wilson College,United East Conference,3,,PA,www.wilsonphoenix.com,sidearm_legacy
+wingate,Wingate University,South Atlantic Conference,2,,NC,wingatebulldogs.com,sidearm_legacy
+winona_state,Winona State University,Northern Sun Intercollegiate Conference,2,,MN,www.winonastatewarriors.com,sidearm_legacy
+winston_salem_state,Winston-Salem State University,Central Intercollegiate Athletic Association,2,,NC,wssurams.com,sidearm_legacy
+winthrop,Winthrop University,Big South Conference,1,,SC,www.winthropeagles.com,sidearm_legacy
+wisconsin,University of Wisconsin-Madison,Big Ten Conference,1,FBS,WI,uwbadgers.com,sidearm
+wisconsin_eau_claire,University of Wisconsin-Eau Claire,Wisconsin Intercollegiate Athletic Conference,3,,WI,www.blugolds.com,sidearm_legacy
+wisconsin_green_bay,University of Wisconsin-Green Bay,Horizon League,1,,WI,greenbayphoenix.com,sidearm_legacy
+wisconsin_la_crosse,University of Wisconsin-La Crosse,Wisconsin Intercollegiate Athletic Conference,3,,WI,www.uwlathletics.com,sidearm_legacy
+wisconsin_lutheran,Wisconsin Lutheran College,Northern Athletics Collegiate Conference,3,,WI,www.wlcsports.com,sidearm_legacy
+wisconsin_milwaukee,University of Wisconsin-Milwaukee,Horizon League,1,,WI,www.mkepanthers.com,sidearm_legacy
+wisconsin_oshkosh,University of Wisconsin-Oshkosh,Wisconsin Intercollegiate Athletic Conference,3,,WI,uwoshkoshtitans.com,sidearm_legacy
+wisconsin_parkside,University of Wisconsin-Parkside,Great Lakes Intercollegiate Athletic Conference,2,,WI,www.parksiderangers.com,sidearm_legacy
+wisconsin_platteville,University of Wisconsin-Platteville,Wisconsin Intercollegiate Athletic Conference,3,,WI,www.letsgopioneers.com,sidearm_legacy
+wisconsin_river_falls,University of Wisconsin-River Falls,Wisconsin Intercollegiate Athletic Conference,3,,WI,www.uwrfsports.com,sidearm_legacy
+wisconsin_stevens_point,University of Wisconsin-Stevens Point,Wisconsin Intercollegiate Athletic Conference,3,,WI,athletics.uwsp.edu,sidearm_legacy
+wisconsin_stout_polytechnic,University of Wisconsin-Stout Polytechnic,Wisconsin Intercollegiate Athletic Conference,3,,WI,stoutbluedevils.com,sidearm_legacy
+wisconsin_superior,University of Wisconsin-Superior,Upper Midwest Athletic Conference,3,,WI,www.uwsyellowjackets.com,sidearm_legacy
+wisconsin_whitewater,University of Wisconsin-Whitewater,Wisconsin Intercollegiate Athletic Conference,3,,WI,www.uwwsports.com,sidearm_legacy
+wooster,The College of Wooster,North Coast Athletic Conference,3,,OH,www.woosterathletics.com,sidearm_legacy
+worcester_polytechnic_institute,Worcester Polytechnic Institute,New England Women's and Men's Athletic Conference,3,,MA,athletics.wpi.edu,sidearm_legacy
+wright_state,Wright State University,Horizon League,1,,OH,wsuraiders.com,sidearm
+wyoming,University of Wyoming,Mountain West Conference,1,FBS,WY,gowyo.com,sidearm
+xavier,Xavier University,BIG EAST Conference,1,,OH,goxavier.com,sidearm
+yale,Yale University,The Ivy League,1,FCS,CT,www.yalebulldogs.com,sidearm_legacy
+yeshiva,Yeshiva University,Skyline Conference,3,,NY,www.yumacs.com,sidearm_legacy
+york_college_new_york,York College (New York),City University of New York Athletic Conference,3,,NY,www.yorkathletics.com,sidearm_legacy
+york_college_pennsylvania,York College (Pennsylvania),Middle Atlantic Conference Commonwealth,3,,PA,www.ycpspartans.com,sidearm_legacy
+young_harris,Young Harris College,Conference Carolinas,2,,GA,www.yhcathletics.com,sidearm_legacy
+youngstown_state,Youngstown State University,Horizon League,1,FCS,OH,ysusports.com,sidearm

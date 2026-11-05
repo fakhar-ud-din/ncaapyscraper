@@ -1,0 +1,90 @@
+name: Weekly data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        division: ['1', '2', '3']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install .
+
+      # A few school sites are always down or mid-redesign, don't fail the whole week for them
+      - name: Scrape division ${{ matrix.division }}
+        run: ncaapyscraper --division ${{ matrix.division }} --no-bios --compact --parallel 12 --output data || echo "some schools failed"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: division-${{ matrix.division }}
+          path: data/
+          retention-days: 7
+
+  publish:
+    needs: scrape
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: division-*
+          path: data/schools
+          merge-multiple: true
+
+      - name: Build index and zip
+        run: |
+          python - <<'EOF'
+          import glob, json, os
+
+          index = []
+          for path in sorted(glob.glob('data/schools/*.json')):
+              school = json.load(open(path, encoding='utf-8'))
+              index.append({
+                  **{key: value for key, value in school.items() if key != 'sports'},
+                  'sports': len(school['sports']),
+                  'players': sum(len(sport.get('players') or []) for sport in school['sports']),
+                  'coaches': sum(len(sport.get('coaches') or []) for sport in school['sports']),
+                  'games': sum(len(sport.get('schedule') or []) for sport in school['sports']),
+                  'file': f"schools/{os.path.basename(path)}",
+              })
+
+          json.dump(index, open('data/index.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+          print(f'{len(index)} schools')
+          EOF
+          cd data && zip -qr ../ncaapyscraper-data.zip index.json schools
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="data-$(date -u +%Y-%m-%d)"
+          gh release delete "$tag" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$tag" ncaapyscraper-data.zip data/index.json \
+            --title "Data $(date -u +%Y-%m-%d)" \
+            --notes "Rosters, coaches and schedules for every supported school, scraped $(date -u +%Y-%m-%d). Bios are left out to keep the download small." \
+            --latest
+
+          # Keep the last 8 weeks
+          gh release list --limit 100 --json tagName --jq '.[].tagName' | grep '^data-' | sort -r | tail -n +9 | while read old; do
+            gh release delete "$old" --yes --cleanup-tag
+          done

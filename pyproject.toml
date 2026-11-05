@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ncaapyscraper"
+dynamic = ["version"]
+description = "Rosters, coaches and schedules from almost 1,000 NCAA college athletics websites"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Muhammad Ghulam Fakhar ud din" }]
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.24",
+    "parsel>=1.8",
+    "tzdata; sys_platform == 'win32'",
+]
+keywords = ["ncaa", "college sports", "college athletics", "rosters", "schedules", "scraper", "sidearm", "sports data"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/fakhar-ud-din/ncaapyscraper"
+Issues = "https://github.com/fakhar-ud-din/ncaapyscraper/issues"
+Data = "https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest"
+
+[project.scripts]
+ncaapyscraper = "ncaapyscraper.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.hatch.version]
+path = "ncaapyscraper/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = ["ncaapyscraper", "tests", "README.md", "LICENSE"]
