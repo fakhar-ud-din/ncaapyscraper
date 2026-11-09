@@ -225,6 +225,8 @@ Each has an async `fetch_` version too (`fetch_scoreboard`, `fetch_boxscore`...)
 
 ncaapyscraper comes with an [MCP](https://modelcontextprotocol.io) server, so Claude, Cursor and other AI apps can look things up for you ("who leads FBS in rushing?", "how did Duke do last night?"). It runs on your own machine, nothing is hosted.
 
+![ncaapyscraper MCP server in Cline](https://raw.githubusercontent.com/fakhar-ud-din/ncaapyscraper/main/docs/mcp-demo.gif)
+
 ```bash
 pip install "ncaapyscraper[mcp]"
 claude mcp add ncaapyscraper -- ncaapyscraper-mcp      # Claude Code
@@ -239,6 +241,11 @@ For Claude Desktop or Cursor, add it to the MCP config file. With [uv](https://d
   }
 }
 ```
+
+Local LLMs are supported too:
+
+- **LM Studio**: add the same JSON to its `mcp.json`
+- **Ollama**: through mcphost or Open WebUI
 
 It has tools for schools, rosters, coaches, schedules, scoreboards, box scores, rankings, standings and stat leaders.
 
