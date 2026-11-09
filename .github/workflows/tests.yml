@@ -21,8 +21,12 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
 
-      - run: pip install -e ".[dev]"
+      - run: pip install -e ".[dev,parquet,mcp]"
 
       - run: pytest -q
 
       - run: ncaapyscraper --list -c sec
+
+      - run: ncaapyscraper scores -h
+
+      - run: python -c "import ncaapyscraper.mcp_server"

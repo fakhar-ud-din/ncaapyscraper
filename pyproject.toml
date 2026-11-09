@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "ncaapyscraper"
 dynamic = ["version"]
-description = "Rosters, coaches and schedules from almost 1,000 NCAA college athletics websites"
+description = "Rosters, coaches and schedules from almost 1,000 NCAA athletics websites, plus scores, box scores, rankings and stats from ncaa.com"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -16,7 +16,7 @@ dependencies = [
     "parsel>=1.8",
     "tzdata; sys_platform == 'win32'",
 ]
-keywords = ["ncaa", "college sports", "college athletics", "rosters", "schedules", "scraper", "sidearm", "sports data"]
+keywords = ["ncaa", "college sports", "college athletics", "rosters", "schedules", "box scores", "scoreboard", "scraper", "sidearm", "sports data", "parquet", "mcp"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -35,8 +35,11 @@ Data = "https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest"
 
 [project.scripts]
 ncaapyscraper = "ncaapyscraper.cli:main"
+ncaapyscraper-mcp = "ncaapyscraper.mcp_server:main"
 
 [project.optional-dependencies]
+parquet = ["pyarrow>=14"]
+mcp = ["mcp>=2,<3"]
 dev = ["pytest>=7"]
 
 [tool.hatch.version]

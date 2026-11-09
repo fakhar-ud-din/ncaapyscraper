@@ -3,7 +3,8 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 from ncaapyscraper.client import Fetcher
-from ncaapyscraper.output import school_result
+from ncaapyscraper.ncaa import NcaaClient
+from ncaapyscraper.output import flatten, school_result
 from ncaapyscraper.platforms import PLATFORMS
 from ncaapyscraper.schools import SCHOOLS, find_school, pick_schools
 
@@ -57,14 +58,39 @@ async def fetch_schedule(school, sport=None, gender=None):
     return flatten(result, 'schedule')
 
 
-def flatten(result, key):
-    "One flat list across sports, handy for pandas"
-    rows = []
-    for sport in result['sports']:
-        for record in sport.get(key) or []:
-            rows.append({'school': result['school'], 'sport': sport['sport'], 'season': sport['season'], **record})
+async def with_ncaa(call):
+    "Runs call(client) on an ncaa.com client with a fetcher of its own"
+    async with Fetcher() as fetcher:
+        return await call(NcaaClient(fetcher))
 
-    return rows
+
+async def fetch_scoreboard(sport, date=None, division=None, week=None, season=None):
+    return await with_ncaa(lambda ncaa: ncaa.scoreboard(sport, date, division, week, season))
+
+
+async def fetch_boxscore(game_id, sport=None):
+    return await with_ncaa(lambda ncaa: ncaa.boxscore(game_id, sport))
+
+
+async def fetch_rankings(sport, division=None, poll=None):
+    return await with_ncaa(lambda ncaa: ncaa.rankings(sport, division, poll))
+
+
+async def fetch_standings(sport, division=None):
+    return await with_ncaa(lambda ncaa: ncaa.standings(sport, division))
+
+
+async def fetch_stat_list(sport, division=None):
+    return await with_ncaa(lambda ncaa: ncaa.stat_list(sport, division))
+
+
+async def fetch_stats(sport, stat, division=None, team=False):
+    return await with_ncaa(lambda ncaa: ncaa.stats(sport, stat, division, team))
+
+
+async def fetch_games(since, until, sports=None, boxscores=False):
+    "(games, box score rows) for every game between two dates, what the weekly season files are built from"
+    return await with_ncaa(lambda ncaa: ncaa.games(since, until, sports, boxscores))
 
 
 def run_sync(coroutine):
@@ -92,6 +118,35 @@ def get_coaches(school, sport=None, gender=None, bios=True):
 
 def get_schedule(school, sport=None, gender=None):
     return run_sync(fetch_schedule(school, sport=sport, gender=gender))
+
+
+def get_scoreboard(sport, date=None, division=None, week=None, season=None):
+    "Every game on a day (default today), football goes by week (default the current one)"
+    return run_sync(fetch_scoreboard(sport, date, division, week, season))
+
+
+def get_boxscore(game_id, sport=None):
+    "Player stats for one game, game_id is the number in an ncaa.com game url"
+    return run_sync(fetch_boxscore(game_id, sport))
+
+
+def get_rankings(sport, division=None, poll=None):
+    "poll is the end of the ncaa.com rankings url, e.g. associated-press. Default is ncaa.com's default poll"
+    return run_sync(fetch_rankings(sport, division, poll))
+
+
+def get_standings(sport, division=None):
+    return run_sync(fetch_standings(sport, division))
+
+
+def get_stat_list(sport, division=None):
+    "Every stat ncaa.com has national leaders for, individual and team"
+    return run_sync(fetch_stat_list(sport, division))
+
+
+def get_stats(sport, stat, division=None, team=False):
+    "National leaders for one stat, by name (Rushing Yards) or id (469)"
+    return run_sync(fetch_stats(sport, stat, division, team))
 
 
 def list_schools(conference=None, division=None):

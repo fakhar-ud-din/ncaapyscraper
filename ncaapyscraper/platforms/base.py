@@ -167,11 +167,7 @@ class BaseCrawler:
 
     async def start(self, url, api=False):
         "First request for a school, if this fails the school failed, not just one sport"
-        page = await self.get(url, api=api)
-        if not page:
-            raise ConnectionError(f"Couldn't load {url}")
-
-        return page
+        return await self.fetcher.get_or_fail(url, headers=api and self.api_headers or None)
 
     async def gather(self, *tasks):
         "One sport failing shouldn't take the whole school down"

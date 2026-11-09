@@ -45,6 +45,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install ".[parquet]"
+
       - uses: actions/download-artifact@v4
         with:
           pattern: division-*
@@ -71,6 +78,7 @@ jobs:
           json.dump(index, open('data/index.json', 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
           print(f'{len(index)} schools')
           EOF
+          ncaapyscraper export data/schools --output data/tables
           cd data && zip -qr ../ncaapyscraper-data.zip index.json schools
 
       - name: Publish release
@@ -79,12 +87,47 @@ jobs:
         run: |
           tag="data-$(date -u +%Y-%m-%d)"
           gh release delete "$tag" --yes --cleanup-tag 2>/dev/null || true
-          gh release create "$tag" ncaapyscraper-data.zip data/index.json \
+          gh release create "$tag" ncaapyscraper-data.zip data/index.json data/tables/*.parquet \
             --title "Data $(date -u +%Y-%m-%d)" \
-            --notes "Rosters, coaches and schedules for every supported school, scraped $(date -u +%Y-%m-%d). Bios are left out to keep the download small." \
+            --notes "Rosters, coaches and schedules for every supported school, scraped $(date -u +%Y-%m-%d). JSON per school in the zip, or one Parquet table each for players, coaches and schedules. Bios are left out to keep the download small." \
             --latest
 
           # Keep the last 8 weeks
           gh release list --limit 100 --json tagName --jq '.[].tagName' | grep '^data-' | sort -r | tail -n +9 | while read old; do
             gh release delete "$old" --yes --cleanup-tag
           done
+
+  games:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - run: pip install ".[parquet]"
+
+      # One release per season (games-2026-27) that keeps growing, each week adds its games to the files in it.
+      # 8 days so last Sunday's late games get their final score if they were still running a week ago
+      - name: Add last week's games to the season files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          year=$(date -u +%Y)
+          month=$(date -u +%-m)
+          season=$(( month >= 8 ? year : year - 1 ))
+          next=$(printf '%02d' $(( (season + 1) % 100 )))
+          tag="games-$season-$next"
+
+          gh release download "$tag" --pattern '*.parquet' --dir data 2>/dev/null || echo "Starting $tag"
+          ncaapyscraper games --days 8 --boxscores --output data
+
+          gh release view "$tag" >/dev/null 2>&1 || gh release create "$tag" \
+            --title "Games $season-$next" \
+            --notes "Every game ncaa.com has for the $season-$next season (games.parquet) and player box scores of the finished ones (boxscores.parquet). Updated every Monday." \
+            --latest=false
+          gh release upload "$tag" data/games.parquet data/boxscores.parquet --clobber

@@ -1,6 +1,6 @@
 # ncaapyscraper
 
-Rosters, coaches and schedules for every sport at almost 1,000 NCAA schools, from Division I down to Division III. Use it from the command line or from Python, and you get clean JSON back.
+Rosters, coaches and schedules for every sport at almost 1,000 NCAA schools, from Division I down to Division III. Scores, box scores, rankings, standings and national stat leaders from ncaa.com. Use it from the command line, from Python or from an AI assistant, and you get clean JSON back.
 
 ```bash
 pip install ncaapyscraper
@@ -11,6 +11,8 @@ import ncaapyscraper as nps
 
 nps.get_roster("duke", "football")
 nps.get_schedule("alabama", "mens-basketball")
+nps.get_scoreboard("football", week=10)
+nps.get_boxscore(6640609)
 ```
 
 Don't want to run anything? A fresh copy of all of it is published every week, see [Download the data](#download-the-data).
@@ -22,8 +24,33 @@ Every Monday a GitHub Action scrapes every supported school and publishes the re
 
 - [ncaapyscraper-data.zip](https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/ncaapyscraper-data.zip) has one JSON file per school plus `index.json`
 - [index.json](https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/index.json) on its own lists every school with its conference, division and file name
+- [players.parquet](https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/players.parquet), [coaches.parquet](https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/coaches.parquet) and [schedules.parquet](https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/schedules.parquet) have the same data as one table each
 
 Bios are left out of the weekly data to keep it small. Run it yourself if you need them.
+
+Games have a release per season, `games-2026-27` for 2026-27. Each Monday adds the week before.
+
+- `games.parquet` has every game ncaa.com lists, all sports and divisions, with scores
+- `boxscores.parquet` has player stats from every finished game that has a box score
+
+Parquet opens straight from the link in pandas, DuckDB or Polars.
+
+```python
+import pandas as pd
+
+players = pd.read_parquet("https://github.com/fakhar-ud-din/ncaapyscraper/releases/latest/download/players.parquet")
+games = pd.read_parquet("https://github.com/fakhar-ud-din/ncaapyscraper/releases/download/games-2026-27/games.parquet")
+```
+
+```sql
+-- DuckDB, top rushers so far
+SELECT name, team, sum(rushing_yards) AS yards
+FROM 'https://github.com/fakhar-ud-din/ncaapyscraper/releases/download/games-2026-27/boxscores.parquet'
+WHERE sport = 'football'
+GROUP BY name, team
+ORDER BY yards DESC
+LIMIT 10;
+```
 
 
 ## Command line
@@ -94,6 +121,37 @@ Each school is saved to `output/<key>.json`. Pick another folder with `-o`.
 `--players`, `--coaches` and `--schedules` can be combined. Without any of them you get all three.
 
 
+## Scores and stats from ncaa.com
+
+These come from ncaa.com instead of the school sites, so they cover every school, not just the supported ones. They print JSON, or save it with `-o` to a `.json`, `.csv` or `.parquet` file.
+
+```bash
+ncaapyscraper scores football --week 10                    # FBS, current week without --week
+ncaapyscraper scores mens-basketball --date 2026-11-07 -d d3
+ncaapyscraper boxscore 6640609 -o boxscore.csv             # game_id from scores
+ncaapyscraper rankings football --poll associated-press
+ncaapyscraper standings mens-basketball
+ncaapyscraper stats football                               # every stat it has leaders for
+ncaapyscraper stats football "Rushing Yards"
+ncaapyscraper stats football "Scoring Offense" --team
+```
+
+Sports are `football`, `mens-basketball`, `womens-basketball`, `baseball`, `softball`, `womens-volleyball`, `mens-volleyball`, `beach-volleyball`, `mens-soccer`, `womens-soccer`, `mens-ice-hockey`, `womens-ice-hockey`, `mens-lacrosse`, `womens-lacrosse` and `field-hockey`. Divisions are `d1`, `d2`, `d3`, `fbs` and `fcs`, the default is `fbs` for football and `d1` for the rest.
+
+- Standings are only on ncaa.com for football and basketball
+- Box scores aren't there for beach volleyball, and smaller D2 and D3 games often have none
+- Dates and times are US Eastern, `datetime_utc` is UTC
+
+Two commands for building datasets, both write Parquet by default (`-f json` or `-f csv` for the others)
+
+```bash
+ncaapyscraper games --days 7 --boxscores -o data      # last week's games and box scores into data/
+ncaapyscraper export output -o tables                 # school json files into players, coaches and schedules tables
+```
+
+`games` adds to the files already in the folder, a game scraped again replaces the old row. That's how the season files grow every week.
+
+
 ## Python
 
 The `get_` functions return plain lists of dicts, one row per player, coach or game, with `school`, `sport` and `season` on every row.
@@ -146,6 +204,43 @@ A school that isn't on the list yet? Pass a dict instead of a key.
 ```python
 nps.get_school({"name": "Boise State University", "site": "broncosports.com", "platform": "sidearm"})
 ```
+
+ncaa.com data, same idea, one row per game, player or team
+
+```python
+games = nps.get_scoreboard("womens-volleyball", "2026-11-07", division="d2")
+players = nps.get_boxscore(games[0]["game_id"])
+ap = nps.get_rankings("football", poll="associated-press")
+table = nps.get_standings("mens-basketball")
+
+nps.get_stat_list("football")                          # names and ids
+leaders = nps.get_stats("football", "Passing Yards")
+teams = nps.get_stats("mens-basketball", "Scoring Offense", team=True)
+```
+
+Each has an async `fetch_` version too (`fetch_scoreboard`, `fetch_boxscore`...).
+
+
+## AI assistants (MCP)
+
+ncaapyscraper comes with an [MCP](https://modelcontextprotocol.io) server, so Claude, Cursor and other AI apps can look things up for you ("who leads FBS in rushing?", "how did Duke do last night?"). It runs on your own machine, nothing is hosted.
+
+```bash
+pip install "ncaapyscraper[mcp]"
+claude mcp add ncaapyscraper -- ncaapyscraper-mcp      # Claude Code
+```
+
+For Claude Desktop or Cursor, add it to the MCP config file. With [uv](https://docs.astral.sh/uv/) installed this needs no pip install at all. Without uv, use `"command": "/full/path/to/ncaapyscraper-mcp"` (`which ncaapyscraper-mcp` prints it), desktop apps often don't see your shell's PATH.
+
+```json
+{
+  "mcpServers": {
+    "ncaapyscraper": {"command": "uvx", "args": ["--from", "ncaapyscraper[mcp]", "ncaapyscraper-mcp"]}
+  }
+}
+```
+
+It has tools for schools, rosters, coaches, schedules, scoreboards, box scores, rankings, standings and stat leaders.
 
 
 ## JSON response
@@ -244,6 +339,7 @@ The [docs](docs/README.md) folder is an unofficial reference for the APIs and pa
 - [SIDEARM API](docs/sidearm-api.md)
 - [WMT API](docs/wmt-api.md)
 - [Older SIDEARM sites](docs/sidearm-classic.md)
+- [ncaa.com](docs/ncaa-com.md)
 
 
 ## Adding a new school
@@ -268,7 +364,7 @@ my_school,My School University,My Conference,3,,OH,myschoolathletics.com,sidearm
 
 1. Clone the repo and go into the folder
 2. Run `python3 -m venv env` and `source env/bin/activate`
-3. Run `pip install -e ".[dev]"`
+3. Run `pip install -e ".[dev,parquet,mcp]"`
 4. Run `pytest`
 
 Needs Python 3.10+.

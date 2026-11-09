@@ -9,6 +9,7 @@ None of this is official. These are the endpoints the websites call themselves, 
 | [SIDEARM API](sidearm-api.md) | `/api/v2/` on newer SIDEARM sites. Sports, rosters, schedules, coaches |
 | [WMT API](wmt-api.md) | `/website-api/` on WMT Digital sites. Same data, JSON:API style queries |
 | [Older SIDEARM sites](sidearm-classic.md) | The `.aspx` sites most D2 and D3 schools are on. Navigation JSON plus roster and schedule pages |
+| [ncaa.com](ncaa-com.md) | Scoreboards and box scores from its GraphQL API, plus rankings, standings and stat leaders pages |
 | [Supported schools](schools.md) | Every school this project covers, by division and conference |
 
 

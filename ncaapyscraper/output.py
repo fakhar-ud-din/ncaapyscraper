@@ -1,3 +1,4 @@
+import csv
 import json
 import os
 
@@ -93,3 +94,91 @@ def write_result(result, output_dir='output', indent=2):
         json.dump(result, output_file, indent=indent, ensure_ascii=False)
 
     return path
+
+
+def flatten(result, key):
+    "One flat list across sports, handy for pandas"
+    rows = []
+    for sport in result['sports']:
+        for record in sport.get(key) or []:
+            rows.append({'school': result['school'], 'sport': sport['sport'], 'season': sport['season'], **record})
+
+    return rows
+
+
+def school_tables(results):
+    "Players, coaches and schedules of many schools, one flat table each"
+    tables = {data_type: [] for data_type in DATA_KEYS}
+
+    for result in results:
+        school = {
+            'school_key': result['key'],
+            'school': result['school'],
+            'conference': result.get('conference'),
+            'division': result.get('division'),
+            'subdivision': result.get('subdivision'),
+        }
+        for data_type, key in DATA_KEYS.items():
+            tables[data_type] += [{**school, **record} for record in flatten(result, key)]
+
+    return tables
+
+
+def load_pyarrow():
+    try:
+        import pyarrow
+        import pyarrow.parquet
+    except ImportError:
+        raise ImportError('Parquet files need pyarrow, pip install "ncaapyscraper[parquet]"') from None
+
+    return pyarrow
+
+
+def write_parquet(rows, path):
+    pyarrow = load_pyarrow()
+    columns = list(dict.fromkeys(field for row in rows for field in row))
+
+    arrays = []
+    for column in columns:
+        values = [row.get(column) for row in rows]
+        try:
+            arrays.append(pyarrow.array(values))
+        except (pyarrow.ArrowInvalid, pyarrow.ArrowTypeError):
+            # A number in one row and text in another (rank 5 and "T-5"), the column stays text
+            arrays.append(pyarrow.array([None if value is None else str(value) for value in values]))
+
+    pyarrow.parquet.write_table(pyarrow.table(arrays, names=columns), path)
+
+
+def read_rows(path):
+    extension = os.path.splitext(path)[1].lower()
+
+    if extension == '.parquet':
+        return load_pyarrow().parquet.read_table(path).to_pylist()
+
+    with open(path, encoding='utf-8', newline='') as input_file:
+        return list(csv.DictReader(input_file)) if extension == '.csv' else json.load(input_file)
+
+
+def write_rows(rows, path, key=None):
+    "json, csv or parquet by the file extension. With a key, rows already in the file are kept and updated"
+    rows = list(rows)
+    if key and os.path.exists(path):
+        merged = {tuple(row.get(field) for field in key): row for row in read_rows(path) + rows}
+        rows = list(merged.values())
+
+    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+    extension = os.path.splitext(path)[1].lower()
+
+    if extension == '.parquet':
+        write_parquet(rows, path)
+    elif extension == '.csv':
+        with open(path, 'w', encoding='utf-8', newline='') as output_file:
+            writer = csv.DictWriter(output_file, list(dict.fromkeys(field for row in rows for field in row)))
+            writer.writeheader()
+            writer.writerows(rows)
+    else:
+        with open(path, 'w', encoding='utf-8') as output_file:
+            json.dump(rows, output_file, indent=2, ensure_ascii=False)
+
+    return len(rows)

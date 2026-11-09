@@ -7,6 +7,7 @@ venv/
 
 output/
 data/
+tables/
 dist/
 build/
 *.egg-info/

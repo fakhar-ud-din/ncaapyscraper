@@ -62,6 +62,31 @@ def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', (text or '').lower()).strip('-')
 
 
+def snake_case(text):
+    "rushingYards"
+    "Rush TD"
+    "PREVIOUS RANKING"
+    text = re.sub(r'([a-z0-9])([A-Z])', r'\1_\2', clean(text) or '')
+    return re.sub(r'[^a-z0-9]+', '_', text.lower()).strip('_')
+
+
+def to_number(value):
+    "1,729"
+    "0.944"
+    ".000"
+    if not isinstance(value, str):
+        return value
+
+    text = value.replace(',', '').strip()
+    if re.fullmatch(r'-?\d+', text):
+        return int(text)
+
+    if re.fullmatch(r'-?\d*\.\d+', text):
+        return float(text)
+
+    return clean(value) or None
+
+
 def format_height(feet, inches):
     if not feet:
         return ''

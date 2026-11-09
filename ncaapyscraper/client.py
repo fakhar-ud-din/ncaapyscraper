@@ -63,6 +63,7 @@ class Fetcher:
         self.slots = {}
         self.locks = {}
         self.last_request = {}
+        self.failures = {}
 
     async def __aenter__(self):
         return self
@@ -92,6 +93,7 @@ class Fetcher:
         host = urlparse(url).hostname or ''
         headers = {'User-Agent': random.choice(MY_USER_AGENTS), **(headers or {})}
         response = None
+        error = None
 
         async with self.slot(host):
             for attempt in range(self.retries + 1):
@@ -99,9 +101,9 @@ class Fetcher:
 
                 try:
                     response = await self.client.get(url, headers=headers)
-                except httpx.HTTPError as error:
-                    logger.debug(f'Failed {url}: {error!r}')
-                    response = None
+                except httpx.HTTPError as e:
+                    logger.debug(f'Failed {url}: {e!r}')
+                    response, error = None, e
                 else:
                     logger.debug(f'Crawled ({response.status_code}) {response.url}')
                     if response.status_code not in RETRY_STATUS:
@@ -111,6 +113,16 @@ class Fetcher:
                     await asyncio.sleep(2 ** attempt)
 
         if response is None or response.status_code >= 400:
+            # Kept so "couldn't load" can say why, a 403 and a timeout need different fixes
+            self.failures[url] = f'status {response.status_code}' if response is not None else type(error).__name__
             return None
 
         return Page(str(response.url), response.status_code, response.text, meta)
+
+    async def get_or_fail(self, url, headers=None, meta=None):
+        "Same as get, but raises when the page couldn't be loaded"
+        page = await self.get(url, headers=headers, meta=meta)
+        if not page:
+            raise ConnectionError(f"Couldn't load {url} ({self.failures.get(url, 'no response')})")
+
+        return page

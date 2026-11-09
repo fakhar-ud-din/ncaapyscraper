@@ -2,20 +2,47 @@ import argparse
 import asyncio
 import collections
 import difflib
+import glob
+import json
 import logging
+import os
 import sys
 
+from datetime import timedelta
+
 from ncaapyscraper import __version__
-from ncaapyscraper.api import fetch_schools
-from ncaapyscraper.constants import DATA_TYPES
-from ncaapyscraper.output import summary, write_result
+from ncaapyscraper.api import (
+    fetch_schools,
+    fetch_scoreboard,
+    fetch_boxscore,
+    fetch_rankings,
+    fetch_standings,
+    fetch_stat_list,
+    fetch_stats,
+    fetch_games,
+)
+from ncaapyscraper.constants import DATA_TYPES, NCAA_SPORTS, GAME_KEY, BOXSCORE_KEY
+from ncaapyscraper.ncaa import to_date
+from ncaapyscraper.output import summary, write_result, write_rows, school_tables
 from ncaapyscraper.schools import SCHOOLS, ALIASES, find_school, pick_schools, conference_name
+
+
+COMMANDS = {
+    'scores': 'every game on a day, or a football week',
+    'boxscore': 'player stats for one game',
+    'rankings': 'polls like the AP Top 25',
+    'standings': 'conference standings',
+    'stats': 'national stat leaders',
+    'games': 'every game (and box score) over a date range, merged into files',
+    'export': 'school json files to players, coaches and schedules tables',
+}
 
 
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(
         prog='ncaapyscraper',
         description='Rosters, coaches and schedules from college athletics websites, saved as JSON.',
+        epilog=f'Scores and stats from ncaa.com: ncaapyscraper {{{",".join(COMMANDS)}}} -h',
     )
     parser.add_argument('schools', nargs='*', help='school keys or sites, e.g. duke alabama goduke.com')
     parser.add_argument('-a', '--all', action='store_true', help='every supported school')
@@ -36,6 +63,53 @@ def parse_args(argv=None):
     parser.add_argument('--version', action='version', version=f'%(prog)s {__version__}')
 
     return parser, parser.parse_args(argv)
+
+
+def parse_command(argv):
+    parser = argparse.ArgumentParser(prog='ncaapyscraper', description='Scores, box scores, rankings, standings and stat leaders from ncaa.com.')
+    commands = parser.add_subparsers(dest='command', required=True)
+    parsers = {command: commands.add_parser(command, help=text, description=text) for command, text in COMMANDS.items()}
+    sport_help = f'one of {", ".join(NCAA_SPORTS)}'
+
+    for command in ['scores', 'rankings', 'standings', 'stats']:
+        parsers[command].add_argument('sport', help=sport_help)
+        parsers[command].add_argument('-d', '--division', help='d1, d2, d3, fbs or fcs (default: fbs for football, d1 for the rest)')
+
+    parsers['scores'].add_argument('--date', help='YYYY-MM-DD (default: today)')
+    parsers['scores'].add_argument('--week', type=int, help='football week (default: the current one)')
+    parsers['scores'].add_argument('--season', type=int, help='year the season started (default: the current one)')
+
+    parsers['boxscore'].add_argument('game_id', help='game_id from scores, or the number in an ncaa.com game url')
+    parsers['boxscore'].add_argument('--sport', help='saves a request when you know it')
+
+    parsers['rankings'].add_argument('--poll', help='end of the ncaa.com rankings url, e.g. associated-press')
+
+    parsers['stats'].add_argument('stat', nargs='?', help='stat name or id, e.g. "Rushing Yards" or 469. Leave out to list them all')
+    parsers['stats'].add_argument('--team', action='store_true', help='team stats instead of individual')
+
+    parsers['games'].add_argument('--since', help='first day, YYYY-MM-DD (default: --days before --until)')
+    parsers['games'].add_argument('--until', help='last day, YYYY-MM-DD (default: yesterday)')
+    parsers['games'].add_argument('--days', type=int, default=7, help='days to go back when there is no --since (default: 7)')
+    parsers['games'].add_argument('-s', '--sport', action='append', default=[], help=f'only these sports (default: all), {sport_help}')
+    parsers['games'].add_argument('--boxscores', action='store_true', help='box scores of finished games too')
+
+    parsers['export'].add_argument('input', help='folder with school json files')
+
+    folders = {
+        'games': ('output', 'folder for games and boxscores files, games already in them are kept and updated (default: output)'),
+        'export': ('tables', 'folder for players, coaches and schedules files (default: tables)'),
+    }
+    for command, (folder, folder_help) in folders.items():
+        parsers[command].add_argument('-f', '--format', choices=['json', 'csv', 'parquet'], default='parquet', help='file format (default: parquet)')
+        parsers[command].add_argument('-o', '--output', default=folder, help=folder_help)
+
+    for command in ['scores', 'boxscore', 'rankings', 'standings', 'stats']:
+        parsers[command].add_argument('-o', '--output', help='save to a .json, .csv or .parquet file instead of printing json')
+
+    for command_parser in parsers.values():
+        command_parser.add_argument('-v', '--verbose', action='store_true', help='log every request')
+
+    return parser.parse_args(argv)
 
 
 def list_schools(keys):
@@ -108,15 +182,90 @@ async def scrape_batch(keys, args, data):
     return failed
 
 
-def main(argv=None):
-    parser, args = parse_args(argv)
+async def run_ncaa(args):
+    if args.command == 'scores':
+        rows = await fetch_scoreboard(args.sport, args.date, args.division, args.week, args.season)
+    elif args.command == 'boxscore':
+        rows = await fetch_boxscore(args.game_id, args.sport)
+    elif args.command == 'rankings':
+        rows = await fetch_rankings(args.sport, args.division, args.poll)
+    elif args.command == 'standings':
+        rows = await fetch_standings(args.sport, args.division)
+    elif args.stat:
+        rows = await fetch_stats(args.sport, args.stat, args.division, args.team)
+    else:
+        rows = await fetch_stat_list(args.sport, args.division)
 
+    if not args.output:
+        print(json.dumps(rows, indent=2, ensure_ascii=False))
+        return
+
+    write_rows(rows, args.output)
+    print(f'{len(rows)} rows -> {args.output}')
+
+
+async def run_games(args):
+    until = args.until and to_date(args.until) or to_date() - timedelta(days=1)
+    since = args.since and to_date(args.since) or until - timedelta(days=args.days - 1)
+
+    games, players = await fetch_games(since, until, args.sport, args.boxscores)
+    print(f'{len(games)} games and {len(players)} box score rows from {since} to {until}')
+
+    files = [('games', games, GAME_KEY)] + (args.boxscores and [('boxscores', players, BOXSCORE_KEY)] or [])
+    for name, rows, key in files:
+        path = os.path.join(args.output, f'{name}.{args.format}')
+        print(f'{write_rows(rows, path, key):>8} rows -> {path}')
+
+
+def run_export(args):
+    results = []
+    for path in sorted(glob.glob(os.path.join(args.input, '*.json'))):
+        with open(path, encoding='utf-8') as input_file:
+            result = json.load(input_file)
+
+        # index.json and anything else that isn't a school
+        if isinstance(result, dict) and 'sports' in result:
+            results.append(result)
+
+    for name, rows in school_tables(results).items():
+        path = os.path.join(args.output, f'{name}.{args.format}')
+        print(f'{write_rows(rows, path):>8} rows -> {path}')
+
+
+def run_command(argv):
+    args = parse_command(argv)
+    setup_logging(args.verbose)
+
+    try:
+        if args.command == 'export':
+            run_export(args)
+        elif args.command == 'games':
+            asyncio.run(run_games(args))
+        else:
+            asyncio.run(run_ncaa(args))
+    except (ValueError, ConnectionError, ImportError) as error:
+        sys.exit(str(error))
+    except KeyboardInterrupt:
+        sys.exit(130)
+
+
+def setup_logging(verbose):
     logging.basicConfig(
-        level=args.verbose and logging.DEBUG or logging.WARNING,
+        level=verbose and logging.DEBUG or logging.WARNING,
         format='%(asctime)s %(levelname)s %(message)s',
     )
     for noisy in ['httpx', 'httpcore', 'asyncio']:
         logging.getLogger(noisy).setLevel(logging.WARNING)
+
+
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    if argv and argv[0] in COMMANDS:
+        run_command(argv)
+        return
+
+    parser, args = parse_args(argv)
+    setup_logging(args.verbose)
 
     if args.conferences:
         list_conferences()
