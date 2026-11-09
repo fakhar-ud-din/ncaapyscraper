@@ -15,7 +15,7 @@ nps.get_scoreboard("football", week=10)
 nps.get_boxscore(6640609)
 ```
 
-Don't want to run anything? A fresh copy of all of it is published every week, see [Download the data](#download-the-data).
+Don't want to run anything? A fresh copy of all of it is published every week, see [Download the data](https://github.com/fakhar-ud-din/ncaapyscraper/releases).
 
 
 ## Download the data
